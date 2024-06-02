@@ -21,6 +21,8 @@ import JAVASCRIPT from '@/components/icons/Javascript.astro'
 import SUPABASE from '@/components/icons/Supabase.astro'
 import Link from '@/components/icons/Link.astro'
 import LinkButton from '@/components/LinkButton.astro'
+import TecnologyStack from '@/components/TecnologyStack.astro'
+import AboutMe from '@/components/AboutMe.astro'
 
 import { Image } from 'astro:assets'
 import perfil from '../assets/toto.webp'
@@ -91,7 +93,7 @@ const PROJECTS = [
 		description:
 			'Administración de gimnasios, permitiendo gestionar miembros, membresías, rutinas y pagos de manera eficiente.  ',
 		link: 'https://fithub-software-v1.vercel.app/#/',
-		image: '/projects/fithub.webp',
+		image: '../../src/proyects/fithub.png',
 		tags: [TAGS.VUE, TAGS.JAVASCRIPT, TAGS.SUPABASE]
 	},
 	{
@@ -99,13 +101,13 @@ const PROJECTS = [
 		description:
 			'Uni renta es una pagina dedicada a aquellos estudiantes que estan buscando alquiler para sus estudios.',
 		link: 'https://uni-rentav1.vercel.app/#/',
-		image: '/projects/unirenta.webp',
+		image: '../../src/proyects/unirenta.png',
 		tags: [TAGS.VUE, TAGS.TAILWIND]
 	}
 ]
 ---
 
-<PageLayout meta={{ title: 'Home' }}>
+<PageLayout meta={{ title: 'Porfolio' }}>
 	<div class='max-w-xxl mb-20'>
 		<div class='mb-4 flex gap-4'>
 			<Image class='size-20 rounded-full shadow-lg' alt={'Tobias Sanmartin'} src={perfil} />
@@ -137,7 +139,7 @@ const PROJECTS = [
 			Hola! soy Tobias
 		</h1>
 		<p
-			class='mt-6 text-xl text-gray-800 dark:text-gray-300 [&>strong]:font-semibold [&>strong]:text-yellow-500 dark:[&>strong]:text-yellow-200'
+			class='mt-6 text-xl text-gray-800 dark:text-gray-300 [&>strong]:font-semibold [&>strong]:text-teal-400 dark:[&>strong]:text-teal-400'
 		>
 			+5 años de experiencia. <strong>Frontend Delevoper</strong> de La Costa, Argentina. <br /> Especializado
 			en el desarrollo frontend de aplicaciones web.
@@ -151,7 +153,8 @@ const PROJECTS = [
 				<LinkedInIcon class='size-5' />
 				LinkedIn
 			</SocialPill>
-			<SocialPill href='cv.pdf' download='Tobias-Sanmartin-Curriculum.pdf'>
+			<!-- Descarga curriculum -->
+			<SocialPill href='../../public/cv.pdf' download='Tobias-Sanmartin-Curriculum.pdf'>
 				<CurriculumIcon class='size-6' />
 				Curriculum
 			</SocialPill>
@@ -171,7 +174,7 @@ const PROJECTS = [
 		</ol>
 	</div>
 
-	<div class='mt-10 w-full'>
+	<div class='mb-10 mt-10 w-full'>
 		<Section title='Proyectos' />
 		{
 			PROJECTS.map(({ image, title, description, tags, link }) => (
@@ -180,14 +183,14 @@ const PROJECTS = [
 						<div class='bg-dark relative mx-auto flex max-w-xs flex-col space-y-3 rounded-xl border border-white p-3 shadow-lg md:max-w-3xl md:flex-row md:space-x-5 md:space-y-0'>
 							<div class='bg-dark grid w-full place-items-center md:w-1/3'>
 								<img
-									src='https://images.pexels.com/photos/4381392/pexels-photo-4381392.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=200'
-									alt='tailwind logo'
+									src={image}
+									alt=''
 									class='transform rounded-md transition-transform duration-300 hover:scale-110'
 								/>
 							</div>
 							<div class='bg-dark flex w-full flex-col space-y-2 p-3 md:w-2/3'>
-								<h3 class='text-white-300 text-xl font-black md:text-3xl'>{title}</h3>
-								<p class='md:text-md pb-3 text-base text-white'>{description}</p>
+								<h3 class='dark:white-300 text-dark-300 text-xl font-black md:text-3xl'>{title}</h3>
+								<p class='dark:white-300 text-dark-300 md:text-md pb-3 text-base'>{description}</p>
 								<ul class='flex flex-row gap-x-2'>
 									{tags.map((tag) => (
 										<li>
@@ -205,85 +208,12 @@ const PROJECTS = [
 			))
 		}
 	</div>
-	<!-- <div class='flex w-full flex-col gap-y-10'>
-		<Section title='About'>
-			<p class='text-muted-foreground'>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis atque quia omnis
-				consectetur, voluptas praesentium veniam blanditiis ratione asperiores accusantium laborum
-				odit commodi quis deserunt incidunt et dolor iure ut! Lorem ipsum dolor sit, amet
-				consectetur adipisicing elit. Alias quia, doloribus ut beatae perspiciatis voluptatibus.
-			</p>
-		</Section>
-		{
-			allPostsByDate.length > 0 && (
-				<Section title='Posts'>
-					<ul class='flex flex-col gap-y-2'>
-						{allPostsByDate.map((p) => (
-							<li class='flex flex-col gap-x-2 sm:flex-row'>
-								<PostPreview post={p} />
-							</li>
-						))}
-					</ul>
-				</Section>
-			)
-		}
-
-		<Section title='Education'>
-			<Card
-				heading='Lorem Ipsum'
-				subheading='Sit amet consectetur'
-				date='Dec 2022 - Nov 2023'
-				imagePath='/src/assets/about-astro.png'
-				altText='Lorem, ipsum dolor sit'
-				imageClass='h-12 w-auto md:-left-16'
-			>
-				<ul class='ml-4 list-disc text-muted-foreground'>
-					<li>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis recusandae, ut
-						molestiae laboriosam pariatur!
-
-						<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, pariatur!</li>
-					</li>
-				</ul>
-			</Card>
-			<Card
-				heading='Lorem Ipsum'
-				subheading='Sit amet consectetur'
-				date='Dec 2022 - Nov 2023'
-				imagePath='/src/assets/about-astro.png'
-				altText='Lorem, ipsum dolor sit'
-				imageClass='h-12 w-auto md:-left-16'
-			/>
-		</Section>
-
-		<Section title='Certifications'>
-			<Card
-				as='a'
-				heading='Lorem ipsum, dolor sit amet consectetur adipisicing.'
-				subheading='Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta magni consequuntur corrupti.'
-				date='Mar 2024 - Mar 2024'
-				imagePath='/src/assets/about-astro.png'
-				altText='Lorem, ipsum dolor sit'
-				imageClass='h-11 w-auto md:-left-16'
-				href='https://www.google.com'
-			/>
-			<Card
-				as='a'
-				heading='Lorem ipsum, dolor sit amet'
-				subheading='Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta.'
-				date='Mar 2029 - Mar 2032'
-				imagePath='/src/assets/about-astro.png'
-				altText='Lorem, ipsum dolor sit'
-				imageClass='h-11 w-auto md:-left-16'
-				href='https://www.google.com'
-			/>
-		</Section>
-
-		<Section title='Skills'>
-			<SkillLayout title='Languages' skills={languages} />
-			<SkillLayout title='Frontend' skills={frontend} />
-			<SkillLayout title='Backend' skills={backend} />
-			<SkillLayout title='Others' skills={others} />
-		</Section>
-	</div> -->
+	<div id='about' class='mb-10 w-full'>
+		<Section title='Stack de tecnologias' />
+		<TecnologyStack />
+	</div>
+	<div class='mt-10 w-full'>
+		<Section title='Sobre Mi' />
+		<AboutMe />
+	</div>
 </PageLayout>

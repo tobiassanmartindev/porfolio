@@ -1,0 +1,39 @@
+---
+const personalImageAlt = 'Tobias Sanmartin'
+---
+
+<article
+	class='flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row'
+>
+	<div
+		class='order-2 text-pretty md:order-1 [&>p>strong]:font-mono [&>p>strong]:font-normal [&>p>strong]:text-cyan-500 dark:[&>p>strong]:text-cyan-400 [&>p]:mb-4'
+	>
+		<p>
+			Me llamo <strong>Tobias</strong> pero mis amigos me dicen toto. Empeze programando cuando estaba
+			en secundaria con PSEINT, cuando tenía 13 años. Desde ese momento <strong
+				>me apasione por la programacion</strong
+			> y esa es la pasion que me mueve hasta el dia de hoy.
+		</p>
+
+		<p>
+			Me gusta compartir mis conocimientos y disfruto enormemente <strong
+				>ayudar a los demás a resolver problemas</strong
+			>. Encontrar soluciones y ver el progreso de los demas me llena de satisfacción y me motiva a
+			seguir <strong>aprendiendo y creciendo.</strong>
+		</p>
+
+		<p>
+			Me encanta viajar y conocer lugares nuevos y diferentes culturas, siento que es una forma de
+			abrir la mente y desarrollarme personalmente.
+		</p>
+	</div>
+
+	<img
+		width='200'
+		height='200'
+		src='../../public/me2.png'
+		alt={personalImageAlt}
+		class='aspect-square dark:bg-none-500/5 order-1 h-full w-64 rounded-2xl object-cover p-1 md:order-2 lg:w-64 lg:p-2'
+		style='object-position: 50% 50%; margin-top:-80px'
+	/>
+</article>

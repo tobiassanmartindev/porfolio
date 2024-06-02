@@ -1,0 +1,30 @@
+---
+const { class: className, id } = Astro.props
+const technologies = [
+  { name: "HTML", icon: "/icons/html5.svg" },
+  { name: "CSS", icon: "/icons/css.svg" },
+  { name: "JavaScript", icon: "/icons/javascript.svg" },
+  { name: "typescript", icon: "/icons/typescript.svg" },
+  { name: "tailwindcss", icon: "/icons/tailwindcss.svg" },
+  { name: "bootstrap", icon: "/icons/bootstrap.svg" },
+  { name: "vue", icon: "/icons/vue.svg" },
+  { name: "react", icon: "/icons/react.svg" },
+  { name: "astro_dark", icon: "/icons/astro_dark.svg" },
+  { name: "vuetify", icon: "/icons/vuetify.svg" },
+  { name: "firebase", icon: "/icons/firebase.svg" },
+  { name: "supabase", icon: "/icons/supabase.svg" },
+  { name: "github", icon: "/icons/github.svg" },
+  { name: "vscode", icon: "/icons/vscode.svg" },
+  { name: "vercel_dark", icon: "/icons/vercel_dark.svg" },
+  
+  // Agrega más tecnologías según sea necesario
+];
+---
+
+<div class="flex flex-wrap gap-3 p-4">
+  {technologies.map(tech => (
+    <div class="flex items-center justify-center w-14 h-14 bg-dark rounded shadow-md">
+      <img src={tech.icon} alt={tech.name} class="w-10 h-10" />
+    </div>
+  ))}
+</div>
