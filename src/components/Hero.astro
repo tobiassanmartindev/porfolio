@@ -1,0 +1,62 @@
+---
+import SocialPill from '@/components/SocialPill.astro'
+import { Image } from 'astro:assets'
+import perfil from '/images/fithub.png'
+import LinkedInIcon from '@/components/icons/LinkedIn.astro'
+import CurriculumIcon from '@/components/icons/Curriculum.astro'
+import MailIcon from '@/components/icons/Mail.astro'
+---
+
+<div class='max-w-xxl mb-20'>
+	<div class='mb-4 flex gap-4'>
+		<!-- <Image  alt={'Tobias Sanmartin'} src={perfil} /> -->
+		<img class='size-20 rounded-full shadow-lg' src='/public/images/toto.webp' alt='' />
+		<a
+			href='https://www.linkedin.com/in/tob%C3%ADas-sanmart%C3%ADn-001b74254/'
+			target='_blank'
+			rel='noopener'
+			class='flex items-center transition md:justify-center md:hover:scale-105'
+		>
+			<section class='flex flex-col items-center'>
+				<div class='flex flex-col items-center gap-y-4'>
+					<a
+						class='flex flex-row items-center gap-x-3 rounded-3xl border border-input px-4 py-2 text-sm shadow-sm transition-all hover:shadow-md'
+					>
+						<span class='relative flex items-center justify-center'>
+							<span
+								class='absolute inline-flex h-2 w-2 animate-ping rounded-full border border-green-400 bg-green-400 opacity-75'
+							></span>
+							<span class='relative inline-flex h-2 w-2 rounded-full bg-green-400'></span>
+						</span>
+
+						<p class='font-medium'>Disponible</p>
+					</a>
+				</div>
+			</section>
+		</a>
+	</div>
+	<h1 class='text-4xl font-bold tracking-tight text-gray-800 dark:text-white sm:text-5xl'>
+		Hola! soy Tobias
+	</h1>
+	<p
+		class='mt-6 text-xl text-gray-800 dark:text-gray-300 [&>strong]:font-semibold [&>strong]:text-teal-400 dark:[&>strong]:text-teal-400'
+	>
+		+5 años de experiencia. <strong>Frontend Delevoper</strong> de La Costa, Argentina. <br /> Especializado
+		en el desarrollo frontend de aplicaciones web.
+	</p>
+	<nav class='mt-8 flex flex-wrap gap-4'>
+		<SocialPill href='mailto:tobiassanmartin.work@gmail.com'>
+			<MailIcon class='size-5' />
+			Contáctame
+		</SocialPill>
+		<SocialPill href='https://www.linkedin.com/in/tob%C3%ADas-sanmart%C3%ADn-001b74254/'>
+			<LinkedInIcon class='size-5' />
+			LinkedIn
+		</SocialPill>
+		<!-- Descarga curriculum -->
+		<SocialPill href='/public/cv.pdf' download='Tobias-Sanmartin-Curriculum.pdf'>
+			<CurriculumIcon class='size-6' />
+			Curriculum
+		</SocialPill>
+	</nav>
+</div>
