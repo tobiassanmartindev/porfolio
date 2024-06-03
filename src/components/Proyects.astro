@@ -6,12 +6,14 @@ import HTML from '@/components/icons/Html.astro'
 import CSS from '@/components/icons/Css.astro'
 import JAVASCRIPT from '@/components/icons/Javascript.astro'
 import SUPABASE from '@/components/icons/Supabase.astro'
+import BOOTSTRAP from '@/components/icons/Bootstrap.astro'
 import Link from '@/components/icons/Link.astro'
 import LinkButton from '@/components/LinkButton.astro'
+import Bootstrap from '@/components/icons/Bootstrap.astro'
 const TAGS = {
 	VUE: {
 		name: 'Vue JS',
-		class: 'bg-black text-white',
+		class: 'bg-green-900 text-white',
 		icon: VueJS
 	},
 	HTML: {
@@ -21,7 +23,7 @@ const TAGS = {
 	},
 	JAVASCRIPT: {
 		name: 'Javascript',
-		class: 'bg-black text-white',
+		class: 'bg-yellow-900 text-white',
 		icon: JAVASCRIPT
 	},
 	CSS: {
@@ -31,8 +33,13 @@ const TAGS = {
 	},
 	SUPABASE: {
 		name: 'Supabase',
-		class: 'bg-black text-white',
+		class: 'bg-green-950 text-white',
 		icon: SUPABASE
+	},
+	BOOTSTRAP: {
+		name: 'Bootstrap',
+		class: 'bg-purple-950 text-white',
+		icon: Bootstrap
 	},
 	TAILWIND: {
 		name: 'Tailwind CSS',
@@ -55,7 +62,7 @@ const PROJECTS = [
 			'Uni renta es una pagina dedicada a aquellos estudiantes que estan buscando alquiler para sus estudios.',
 		link: '',
 		image: '/images/unirenta.png',
-		tags: [TAGS.VUE, TAGS.TAILWIND]
+		tags: [TAGS.VUE, TAGS.BOOTSTRAP]
 	}
 ]
 ---
