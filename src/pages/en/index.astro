@@ -1,0 +1,59 @@
+---
+import PageLayout from "../../layouts/BaseLayout.astro";
+import Section from "../../components/Section.astro";
+import ExperienceItem from "@/components/ExperienceItem.astro";
+import TecnologyStack from "@/components/TecnologyStack.astro";
+import AboutMe from "@/components/AboutMe.astro";
+import Proyects from "@/components/Proyects.astro";
+import { getAllPosts, sortMDByDate } from "@/utils";
+import Hero from "@/components/Hero.astro";
+import i18next, { t, changeLanguage } from "i18next";
+
+changeLanguage("en");
+
+const MAX_POSTS = 10;
+const allPosts = await getAllPosts();
+const EXPERIENCIE = [
+    {
+        date: "Marzo 2022 hasta la actualidad",
+        title: "Frontend Developer",
+        company: "WaveIt",
+        description: "Actualmente, soy Desarrollador Front End en WAVE IT, donde superviso el dise\u00F1o e implementaci\u00F3n de sitios web, creo documentaci\u00F3n t\u00E9cnica, mantengo y actualizo proyectos. Tambi\u00E9n optimizo dise\u00F1os para mejorar la experiencia del usuario, mejoro continuamente los procesos y el rendimiento del c\u00F3digo. Adem\u00E1s, proporciono apoyo y mentor\u00EDa a desarrolladores junior."
+    },
+    {
+        date: "Marzo 2019",
+        title: "Web Developer",
+        company: "Freelance",
+        description: "En esta etapa estuve trabajando de manera freelance, creando e implementando paginas web completas para clientes locales. La variedad de paginas iban desde landing pages hasta sistemas de gestion peque\u00F1a. Mejorando en algunos casos hasta 30% de gestion comercial, y hasta un 80% de alcanze."
+    }
+];
+---
+
+<PageLayout meta={{ title: 'Porfolio' }}>
+	<Hero />
+	<div class='mb-10'>
+		<Section title='Experiencia laboral' />
+		<ol class='relative mt-16'>
+			{
+				EXPERIENCIE.map((experiencie) => (
+					<li class=''>
+						<ExperienceItem {...experiencie} />
+					</li>
+				))
+			}
+		</ol>
+	</div>
+
+	<div class='mb-10 mt-10 w-full'>
+		<Section title='Proyectos' />
+		<Proyects />
+	</div>
+	<div id='about' class='mb-10 w-full'>
+		<Section title='Stack de tecnologias' />
+		<TecnologyStack />
+	</div>
+	<div class='mt-10 w-full'>
+		<Section title='Sobre Mi' />
+		<AboutMe />
+	</div>
+</PageLayout>

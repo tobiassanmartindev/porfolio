@@ -9,7 +9,7 @@ import PageLayout from "@/layouts/BaseLayout.astro";
 import Button from "@/components/Button.astro";
 import { getAllPosts, getUniqueTags, sortMDByDate } from "@/utils";
 
-changeLanguage("es");
+changeLanguage("en");
 
 export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
     const allPosts = await getAllPosts();

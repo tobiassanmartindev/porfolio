@@ -1,0 +1,14 @@
+{
+	"site": {
+		"title": "Mi pagina web",
+		"description": "Descripcion de sitio"
+	},
+	"home": {
+		"title": "Esta es mi pagina",
+		"subtitle": "Ceci est une chaine de charactères <0>plus compliquée</0> à traduire, il y a des <1>éléments html</1>, comme <2>un super lien</2> par exemple !"
+	},
+	"about": {
+		"hi": "Hola! soy Tobias",
+		"me": "<h1 class='text-4xl font-bold tracking-tight text-gray-800 dark:text-white sm:text-5xl'> Hola! soy Tobias </h1><p class='mt-6 text-xl text-gray-800 dark:text-gray-300 [&>strong]:font-semibold [&>strong]:text-teal-400 dark:[&>strong]:text-teal-400'>+5 años de experiencia. <strong>Frontend Delevoper</strong> de La Costa, Argentina. <br /> Especializado en el desarrollo Frontend de aplicaciones web.</p>"
+	}
+}

@@ -8,6 +8,7 @@ import rehypeExternalLinks from 'rehype-external-links'
 import expressiveCode from 'astro-expressive-code'
 import { expressiveCodeOptions } from './src/site.config'
 import icon from 'astro-icon'
+import astroI18next from 'astro-i18next'
 
 import vercel from '@astrojs/vercel/serverless'
 
@@ -21,7 +22,8 @@ export default defineConfig({
 		}),
 		sitemap(),
 		mdx(),
-		icon()
+		icon(),
+		astroI18next()
 	],
 	markdown: {
 		remarkPlugins: [remarkUnwrapImages, remarkReadingTime],

@@ -1,0 +1,14 @@
+{
+	"site": {
+		"title": "My website",
+		"description": "Site description"
+	},
+	"home": {
+		"title": "This is my website",
+		"subtitle": "This is a <0>more complex</0> string to translate, there are <1>HTML elements</1>, such as <2>a cool link</2> for example!"
+	},
+	"about": {
+		"hi": "Hi! I'm Tobias",
+		"me": "<h1 class='text-4xl font-bold tracking-tight text-gray-800 dark:text-white sm:text-5xl'> Hi! I'm Tobias </h1><p class='mt-6 text-xl text-gray-800 dark:text-gray-300 [&>strong]:font-semibold [&>strong]:text-teal-400 dark:[&>strong]:text-teal-400'>+5 years of experience. <strong>Frontend Developer</strong> from La Costa, Argentina. <br /> Specialized in the Frontend development of web applications.</p>"
+	}
+}

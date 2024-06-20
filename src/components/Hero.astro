@@ -1,10 +1,9 @@
 ---
 import SocialPill from '@/components/SocialPill.astro'
-import { Image } from 'astro:assets'
-import perfil from '/images/fithub.png'
 import LinkedInIcon from '@/components/icons/LinkedIn.astro'
 import CurriculumIcon from '@/components/icons/Curriculum.astro'
 import MailIcon from '@/components/icons/Mail.astro'
+import i18next, { t, changeLanguage } from 'i18next'
 ---
 
 <div class='max-w-xxl mb-20'>
@@ -36,7 +35,7 @@ import MailIcon from '@/components/icons/Mail.astro'
 		</a>
 	</div>
 	<h1 class='text-4xl font-bold tracking-tight text-gray-800 dark:text-white sm:text-5xl'>
-		Hola! soy Tobias
+		{t('about.hi')}
 	</h1>
 	<p
 		class='mt-6 text-xl text-gray-800 dark:text-gray-300 [&>strong]:font-semibold [&>strong]:text-teal-400 dark:[&>strong]:text-teal-400'

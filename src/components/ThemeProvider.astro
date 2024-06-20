@@ -36,7 +36,4 @@
 	document.addEventListener('theme-change', (e) => {
 		setTheme(e.detail.theme)
 	})
-
-	// Listen for prefers-color-scheme change
-	lightModePref.addEventListener('change', (e) => setTheme(e.matches ? 'dark' : 'light'))
 </script>
