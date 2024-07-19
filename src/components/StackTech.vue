@@ -23,7 +23,7 @@
                 d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z"
               />
             </svg>
-            <span class="text-center font-semibold">HTML5</span>
+            <span class="text-center font-semibold text-sm mt-2">HTML5</span>
           </div>
           <div class="grid">
             <svg class="h-12 mx-auto w-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
@@ -35,7 +35,7 @@
               />
               <path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 26-288H226v56h80l-6 58h-74z" />
             </svg>
-            <span class="text-center font-semibold">CSS</span>
+            <span class="text-center font-semibold text-sm mt-2">CSS</span>
           </div>
 
           <div class="grid">
@@ -50,7 +50,7 @@
                 fill="#323330"
               />
             </svg>
-            <span class="text-center font-semibold">JavaScript</span>
+            <span class="text-center font-semibold text-sm mt-2">JavaScript</span>
           </div>
 
           <div class="grid">
@@ -69,7 +69,7 @@
                 fill="#FFF"
               />
             </svg>
-            <span class="text-center font-semibold">TypeScript</span>
+            <span class="text-center font-semibold text-sm mt-2">TypeScript</span>
           </div>
 
           <div class="grid">
@@ -83,7 +83,7 @@
               <path d="m0 0 128 220.8L256 0h-51.2L128 132.48 50.56 0H0Z" fill="#41B883" />
               <path d="M50.56 0 128 133.12 204.8 0h-47.36L128 51.2 97.92 0H50.56Z" fill="#35495E" />
             </svg>
-            <span class="text-center font-semibold">VueJs</span>
+            <span class="text-center font-semibold text-sm mt-2">VueJs</span>
           </div>
 
           <div class="grid">
@@ -104,7 +104,7 @@
                 fill="url(#gradient)"
               ></path>
             </svg>
-            <span class="text-center font-semibold">Tailwind CSS</span>
+            <span class="text-center font-semibold text-sm mt-2">Tailwind CSS</span>
           </div>
           <div class="grid">
             <svg
@@ -186,7 +186,7 @@
                 d="M136.602 126.74a3.765 3.765 0 0 1 0 5.323l-17.53 17.531 10.684 10.686a3.765 3.765 0 0 1 .12 5.2l-.12.125a3.765 3.765 0 0 1-5.324 0l-10.686-10.686-10.686 10.686a3.765 3.765 0 1 1-5.324-5.325l10.685-10.686-17.53-17.53a3.765 3.765 0 0 1-.12-5.2l.12-.125a3.765 3.765 0 0 1 5.324 0l17.531 17.53 17.531-17.53a3.765 3.765 0 0 1 5.325 0Z"
               />
             </svg>
-            <span class="text-center font-semibold">Pinia</span>
+            <span class="text-center font-semibold text-sm mt-2">Pinia</span>
           </div>
         </div>
       </a>
@@ -210,7 +210,7 @@
                 d="M175.622 61.108C152.612 33.807 132.797 6.078 128.749.32a1.03 1.03 0 0 0-1.492 0c-4.048 5.759-23.863 33.487-46.874 60.788-197.507 251.896 31.108 421.89 31.108 421.89l1.917 1.28c1.704 26.234 5.966 63.988 5.966 63.988h17.045s4.26-37.54 5.965-63.987l1.918-1.494c.213.214 228.828-169.78 31.32-421.677Zm-47.726 418.05s-10.227-8.744-12.997-13.222v-.428l12.358-274.292c0-.853 1.279-.853 1.279 0l12.357 274.292v.428c-2.77 4.478-12.997 13.223-12.997 13.223Z"
               />
             </svg>
-            <span class="text-center font-semibold">MongoDB</span>
+            <span class="text-center font-semibold text-sm mt-2">MongoDB</span>
           </div>
 
           <div class="grid">
@@ -226,7 +226,7 @@
               />
               <path d="m58 43-7 1 6 7 4 9v-1c3-1 4-4 4-8l-2-4-5-4Z" fill="#00546B" />
             </svg>
-            <span class="text-center font-semibold">MySQL</span>
+            <span class="text-center font-semibold text-sm mt-2">MySQL</span>
           </div>
 
           <div class="grid">
@@ -274,7 +274,7 @@
                 </linearGradient>
               </defs>
             </svg>
-            <span class="text-center font-semibold">Supabase</span>
+            <span class="text-center font-semibold text-sm mt-2">Supabase</span>
           </div>
 
           <div class="grid">
@@ -297,7 +297,7 @@
                 d="M57.44 128a7.056 7.056 0 0 1-7.056-7.056V43.328a7.056 7.056 0 0 1 7.056-7.056h26.482c5.13 0 9.92.516 14.373 1.548 4.549.938 8.47 2.579 11.76 4.924 3.388 2.25 6.05 5.299 7.985 9.144 1.936 3.752 2.904 8.395 2.904 13.928 0 5.347-1.016 9.99-3.049 13.928-1.935 3.94-4.598 7.175-7.985 9.708-3.388 2.532-7.308 4.408-11.76 5.628-4.453 1.219-9.195 1.829-14.228 1.829h-5.14a7.056 7.056 0 0 0-7.056 7.055v16.98A7.056 7.056 0 0 1 64.67 128h-7.23Zm14.286-54.608a7.056 7.056 0 0 0 7.056 7.056h3.833c11.615 0 17.422-4.878 17.422-14.632 0-4.783-1.5-8.16-4.5-10.13-2.904-1.969-7.211-2.953-12.922-2.953h-3.833a7.056 7.056 0 0 0-7.056 7.055v13.604ZM142.112 219.728a7.056 7.056 0 0 1-7.056-7.056v-77.616a7.056 7.056 0 0 1 7.056-7.056h24.61c4.915 0 9.446.375 13.59 1.125 4.242.657 7.905 1.877 10.99 3.658 3.084 1.783 5.494 4.127 7.229 7.034 1.832 2.908 2.747 6.566 2.747 10.975 0 2.063-.337 4.126-1.012 6.19-.579 2.063-1.542 3.986-2.892 5.767-1.35 1.783-3.036 3.377-5.06 4.784-1.96 1.362-4.281 2.373-6.964 3.03a.35.35 0 0 0-.266.339c0 .167.121.31.285.341 6.607 1.234 11.62 3.56 15.042 6.982 3.47 3.47 5.205 8.3 5.205 14.491 0 4.69-.916 8.723-2.747 12.099-1.832 3.376-4.386 6.19-7.664 8.441-3.277 2.157-7.132 3.799-11.567 4.924-4.337 1.032-9.06 1.548-14.17 1.548h-27.356Zm14.199-61.924a7.056 7.056 0 0 0 7.056 7.056h2.342c5.206 0 8.965-.985 11.278-2.955 2.314-1.969 3.47-4.736 3.47-8.3 0-3.377-1.204-5.769-3.615-7.175-2.313-1.5-5.976-2.251-10.988-2.251h-2.487a7.056 7.056 0 0 0-7.056 7.056v6.569Zm0 38.69a7.056 7.056 0 0 0 7.056 7.055h4.366c11.375 0 17.062-4.127 17.062-12.38 0-4.033-1.398-6.941-4.193-8.723-2.7-1.782-6.989-2.673-12.869-2.673h-4.366a7.056 7.056 0 0 0-7.056 7.056v9.664Z"
               />
             </svg>
-            <span class="text-center font-semibold">Pocketbase</span>
+            <span class="text-center font-semibold text-sm mt-2">Pocketbase</span>
           </div>
 
           <div class="grid">
@@ -393,7 +393,7 @@
                 fill="#EEAB37"
               />
             </svg>
-            <span class="text-center font-semibold">Firebase</span>
+            <span class="text-center font-semibold text-sm mt-2">Firebase</span>
           </div>
         </div>
       </a>
@@ -442,7 +442,7 @@
                 d="M180.828 252.605a15.874 15.874 0 0 0 12.65-.486l52.5-25.263a15.938 15.938 0 0 0 9.026-14.363V41.197a15.939 15.939 0 0 0-9.025-14.363L193.477 1.57a15.877 15.877 0 0 0-18.114 3.084L74.857 96.35l-43.78-33.232a10.614 10.614 0 0 0-13.56.603L3.476 76.494c-4.63 4.211-4.635 11.495-.012 15.713l37.967 34.638-37.967 34.637c-4.623 4.219-4.618 11.502.012 15.714l14.041 12.772a10.614 10.614 0 0 0 13.56.604l43.78-33.233 100.506 91.695a15.857 15.857 0 0 0 5.465 3.571Zm10.464-183.65-76.262 57.89 76.262 57.888V68.956Z"
               />
             </svg>
-            <span class="text-center font-semibold">Visual Studio Code</span>
+            <span class="text-center font-semibold text-sm mt-2">Visual Studio Code</span>
           </div>
 
           <div class="grid">
@@ -480,7 +480,7 @@
                 </clipPath>
               </defs>
             </svg>
-            <span class="text-center font-semibold">Figma</span>
+            <span class="text-center font-semibold text-sm mt-2">Figma</span>
           </div>
 
           <div class="grid">
@@ -492,7 +492,7 @@
             >
               <path fill="#000" d="m128 0 128 221.705H0z" />
             </svg>
-            <span class="text-center font-semibold">Vercel</span>
+            <span class="text-center font-semibold text-sm mt-2">Vercel</span>
           </div>
 
           <div class="grid">
@@ -508,7 +508,7 @@
               />
             </svg>
 
-            <span class="text-center font-semibold">Git</span>
+            <span class="text-center font-semibold text-sm mt-2">Git</span>
           </div>
         </div>
       </a>
@@ -532,7 +532,7 @@
                 fill="#00D8FF"
               />
             </svg>
-            <span class="text-center font-semibold">ReactJS</span>
+            <span class="text-center font-semibold text-sm mt-2">ReactJS</span>
           </div>
           <div class="grid">
             <svg
@@ -546,7 +546,7 @@
                 d="M.38 0a.268.268 0 0 0-.256.332l2.894 11.716a.268.268 0 0 0 .01.04l2.89 11.708a.268.268 0 0 0 .447.128L23.802 7.15a.268.268 0 0 0-.112-.45l-5.784-1.667a.268.268 0 0 0-.123-.035L6.38 1.715a.268.268 0 0 0-.144-.04L.456.01A.268.268 0 0 0 .38 0zm.374.654L5.71 2.08 1.99 5.664zM6.61 2.34l4.864 1.4-3.65 3.515zm-.522.12l1.217 4.926-4.877-1.4zm6.28 1.538l4.878 1.404-3.662 3.53zm-.52.13l1.208 4.9-4.853-1.392zm6.3 1.534l4.947 1.424-3.715 3.574zm-.524.12l1.215 4.926-4.876-1.398zm-15.432.696l4.964 1.424-3.726 3.586zM8.047 8.15l4.877 1.4-3.66 3.527zm-.518.137l1.236 5.017-4.963-1.432zm6.274 1.535l4.965 1.425-3.73 3.586zm-.52.127l1.235 5.012-4.958-1.43zm-9.63 2.438l4.873 1.406-3.656 3.523zm5.854 1.687l4.863 1.403-3.648 3.51zm-.54.04l1.214 4.927-4.875-1.4zm-3.896 4.02l5.037 1.442-3.782 3.638z"
               />
             </svg>
-            <span class="text-center font-semibold">Three.js</span>
+            <span class="text-center font-semibold text-sm mt-2">Three.js</span>
           </div>
         </div>
       </a>
