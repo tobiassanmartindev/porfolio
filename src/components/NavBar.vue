@@ -6,7 +6,7 @@
         id="navbar-default"
       >
         <ul
-          class="font-medium flex flex-col md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700"
+          class="font-medium text-sm sm:text-sm flex flex-row space-x-8 rtl:space-x-reverse rounded-lg md:mt-0 md:border-0 dark:border-gray-700"
         >
           <li>
             <a
