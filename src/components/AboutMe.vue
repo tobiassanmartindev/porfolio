@@ -1,33 +1,10 @@
 <template>
   <div class="font-bold text-2xl text-center mt-14">Sobre mi</div>
-
-  <!--  <div class="grid grid-cols-2 gap-4">
-    <div class="flex justify-center h-40">
-      <img src="../../public/perfil.png" alt="perfil" />
-    </div>
-    <div class="mt-4">
-      <p>
-        Me llamo Miguel Ángel pero mis amigos me llaman midu. Empecé en la programación con un
-        Amstrad, tenía 10 años. Actualmente estoy liderando equipos de desarrollo en
-        multinacionales.
-      </p>
-      <p>
-        Algunos de mis éxitos incluyen colaborar con Mozilla para el desarrollo de las primeras apps
-        en su sistema FirefoxOS. Aunque hoy está desaparecido fue un gran avance en el mundo del
-        desarrollo web.
-      </p>
-      <p>
-        Como creador de contenido, cuento con el canal de habla hispana más visto del mundo en la
-        categoría de Software & Game Development en Twitch. Mi objetivo es mejorar la empleabilidad
-        de la comunidad hispana y el acceso a contenido de calidad.
-      </p>
-    </div>
-  </div> -->
-  <div class="flex w-[900px] mx-auto mb-24">
-    <div class="flex-none w-72 h-72 items-center justify-center mr-12">
+  <div class="lg:flex md:flex sm:grid lg:max-w-[900px] lg:mx-auto mr-3 mb-20">
+    <div class="flex-none w-72 h-72 items-center justify-center mx-auto lg:mr-12 sm:mx-auto">
       <img src="../../public/about.png" alt="perfil" />
     </div>
-    <div class="grid gap-4 grow h-14 mt-12">
+    <div class="grid gap-4 mt-12 lg:px-0 md:px-0 sm:px-3">
       <p>
         Soy Tobias Sanmartin, un
         <span class="font-semibold">desarrollador frontend con más de 3 años de experiencia</span>.

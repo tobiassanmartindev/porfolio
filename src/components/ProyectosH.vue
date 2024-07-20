@@ -1,9 +1,9 @@
 <template>
   <div class="font-bold text-2xl text-center mb-10">Proyectos</div>
   <div class="mx-auto justify-center items-center flex">
-    <div class="flex mb-2">
+    <div class="lg:flex md:flex mb-2">
       <div
-        class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto mb-4 lg:mb-0 sm:mb-4"
       >
         <a href="#">
           <img class="rounded-lg" src="../../public/fithub.png" alt="" />

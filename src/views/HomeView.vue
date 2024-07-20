@@ -10,12 +10,14 @@ import SoftSkills from '@/components/SoftSkills.vue'
 </script>
 
 <template>
-  <NavBar />
-  <HeroComponent />
-  <ExperienciaLaboral />
-  <ProyectosH />
-  <StackTech />
-  <SoftSkills />
-  <AboutMe />
-  <FooterSection />
+  <div class="px-2">
+    <NavBar />
+    <HeroComponent />
+    <ExperienciaLaboral />
+    <ProyectosH />
+    <StackTech />
+    <SoftSkills />
+    <AboutMe />
+    <FooterSection />
+  </div>
 </template>

@@ -63,7 +63,9 @@
           </button>
         </p>
       </div>
-      <div class="image-container lg:mt-0 ml-auto lg:col-span-5 lg:flex h-72 relative">
+      <div
+        class="image-container col-span-5 ml-auto mr-auto lg:mr-0 md:mr-auto mt-10 lg:mt-0 md:mt-10 sm:mt-10"
+      >
         <img src="../../public/meditacion.png" alt="perfil" class="profile-img z-30" />
         <div
           style="margin-left: -50px"

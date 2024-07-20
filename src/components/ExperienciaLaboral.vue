@@ -1,11 +1,11 @@
 <template>
   <div class="font-bold text-2xl text-center mt-24">Experiencia laboral</div>
-  <div class="flex mx-auto justify-center mb-10">
-    <div class="flex-none w-72 mr-12">
-      <img src="../../public/pc.png" alt="computadora" class="w-72" />
+  <div class="lg:flex md:grid justify-center mb-10">
+    <div class="flex-none w-72 lg:mr-6 lg:mx-5 sm:mr-auto sm:mx-auto mx-auto">
+      <img src="../../public/pc.png" alt="computadora" class="w-72 mb-8" />
     </div>
     <div class="flex-initial w-70">
-      <div class="w-[560px] mt-4">
+      <div class="lg:w-[560px] md:w-[760px] mx-auto mt-4 lg:px-0 px-6">
         <ol class="relative border-s border-teal-200 dark:border-gray-700">
           <li class="mb-10 ms-4">
             <div
@@ -18,7 +18,7 @@
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
               Frontend Developer WAVE IT
             </h3>
-            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+            <p class="mb-4 font-normal text-gray-500 dark:text-gray-400">
               Actualmente trabajo en una empresa de desarrollo web, donde construyo páginas desde
               diseños y hago mantenimiento de sistemas ya implementados. Me dedico a transformar
               ideas en realidad a través de código limpio y soluciones eficientes, asegurando que
