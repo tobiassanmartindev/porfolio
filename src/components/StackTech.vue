@@ -1,5 +1,5 @@
 <template>
-  <div class="font-bold text-2xl text-center mt-14">Stack de Tecnologias</div>
+  <div id="stack" class="font-bold text-2xl text-center mt-14">Stack de Tecnologias</div>
   <div class="flex items-center justify-center mt-10">
     <div class="grid grid-cols-2 gap-10">
       <a

@@ -12,55 +12,64 @@
           Argentina, transformando ideas en aplicaciones funcionales con código limpio y eficiente.
         </p>
         <p>
-          <button
-            type="button"
-            class="text-white bg-dark mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-          >
-            <span class="text-black font-semibold"> Contactame </span>
+          <a href="mailto:tobiassanmartin.work@gmail.com">
+            <button
+              type="button"
+              class="text-white bg-dark mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+            >
+              <span class="text-black font-semibold"> Contactame </span>
 
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="rtl:rotate-180 w-5 h-5 ms-2"
-              viewBox="0 0 24 24"
-            >
-              <title>email-arrow-right-outline</title>
-              <path
-                d="M13 19C13 18.66 13.04 18.33 13.09 18H4V8L12 13L20 8V13.09C20.72 13.21 21.39 13.46 22 13.81V6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H13.09C13.04 19.67 13 19.34 13 19M20 6L12 11L4 6H20M20 22V20H16V18H20V16L23 19L20 22Z"
-              />
-            </svg>
-          </button>
-          <button
-            type="button"
-            class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="rtl:rotate-180 w-5 h-5 ms-2"
+                viewBox="0 0 24 24"
+              >
+                <title>email-arrow-right-outline</title>
+                <path
+                  d="M13 19C13 18.66 13.04 18.33 13.09 18H4V8L12 13L20 8V13.09C20.72 13.21 21.39 13.46 22 13.81V6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H13.09C13.04 19.67 13 19.34 13 19M20 6L12 11L4 6H20M20 22V20H16V18H20V16L23 19L20 22Z"
+                />
+              </svg>
+            </button>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/tob%C3%ADas-sanmart%C3%ADn-001b74254/"
           >
-            <span class="text-black font-semibold">Linkedin</span>
-            <svg
-              class="rtl:rotate-180 w-5 h-5 ms-2"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
+            <button
+              type="button"
+              class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
             >
-              <title>linkedin</title>
-              <path
-                d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"
-              />
-            </svg>
-          </button>
-          <button
-            type="button"
-            class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-          >
-            <span class="text-black font-semibold">CV</span>
-            <svg
-              class="rtl:rotate-180 w-5 h-5 ms-2"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
+              <span class="text-black font-semibold">Linkedin</span>
+              <svg
+                class="rtl:rotate-180 w-5 h-5 ms-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <title>linkedin</title>
+                <path
+                  d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"
+                />
+              </svg>
+            </button>
+          </a>
+          <a href="../../public/cv.pdf" download="tobias-sanmartin-cv.pdf">
+            <button
+              type="button"
+              class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
             >
-              <title>file-document-arrow-right-outline</title>
-              <path
-                d="M23 19L20 16V18H16V20H20V22L23 19M13.8 22H6C4.9 22 4 21.1 4 20V4C4 2.9 4.9 2 6 2H14L20 8V13.1C19.7 13 19.3 13 19 13S18.3 13 18 13.1V9H13V4H6V20H13.1C13.2 20.7 13.5 21.4 13.8 22M8 12H16V13.8C15.9 13.9 15.8 13.9 15.7 14H8V12M8 16H13V18H8V16Z"
-              />
-            </svg>
-          </button>
+              <span class="text-black font-semibold">CV</span>
+              <svg
+                class="rtl:rotate-180 w-5 h-5 ms-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <title>file-document-arrow-right-outline</title>
+                <path
+                  d="M23 19L20 16V18H16V20H20V22L23 19M13.8 22H6C4.9 22 4 21.1 4 20V4C4 2.9 4.9 2 6 2H14L20 8V13.1C19.7 13 19.3 13 19 13S18.3 13 18 13.1V9H13V4H6V20H13.1C13.2 20.7 13.5 21.4 13.8 22M8 12H16V13.8C15.9 13.9 15.8 13.9 15.7 14H8V12M8 16H13V18H8V16Z"
+                />
+              </svg>
+            </button>
+          </a>
         </p>
       </div>
       <div

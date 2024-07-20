@@ -1,5 +1,5 @@
 <template>
-  <div class="font-bold text-2xl text-center mt-24">Experiencia laboral</div>
+  <div id="experiencia" class="font-bold text-2xl text-center mt-24">Experiencia laboral</div>
   <div class="lg:flex md:grid justify-center mb-10">
     <div class="flex-none w-72 lg:mr-6 lg:mx-5 sm:mr-auto sm:mx-auto mx-auto">
       <img src="../../public/pc.png" alt="computadora" class="w-72 mb-8" />
