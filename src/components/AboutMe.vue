@@ -1,5 +1,5 @@
 <template>
-  <div id="sobremi" class="font-bold text-2xl text-center mt-14">Sobre mi</div>
+  <div class="font-bold text-2xl text-center mt-14">Sobre mi</div>
   <div class="lg:flex md:flex sm:grid lg:max-w-[900px] lg:mx-auto mr-3 mb-20">
     <div class="flex-none w-72 h-72 items-center justify-center mx-auto lg:mr-12 sm:mx-auto">
       <img src="../../public/about.png" alt="perfil" />

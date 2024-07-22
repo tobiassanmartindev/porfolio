@@ -1,7 +1,7 @@
 <template>
-  <div id="stack" class="font-bold text-2xl text-center mt-14">Stack de Tecnologias</div>
+  <div class="font-bold text-2xl text-center mt-14">Stack de Tecnologias</div>
   <div class="flex items-center justify-center mt-10">
-    <div class="grid grid-cols-2 gap-10">
+    <div class="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-10">
       <a
         href="#"
         class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow transition-shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 hover:shadow-lg"

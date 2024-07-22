@@ -350,6 +350,7 @@
       </div>
     </div>
   </section>
+  <div id="experiencia"></div>
 </template>
 <style scoped>
 .image-container {

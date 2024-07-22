@@ -1,5 +1,5 @@
 <template>
-  <div id="proyectos" class="font-bold text-2xl text-center mb-10">Proyectos</div>
+  <div class="font-bold text-2xl text-center mb-10">Proyectos</div>
   <div class="mx-auto justify-center items-center flex">
     <div class="lg:flex md:flex mb-2">
       <div
@@ -66,4 +66,5 @@
       </div>
     </div>
   </div>
+  <div id="stack"></div>
 </template>
