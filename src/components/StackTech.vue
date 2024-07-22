@@ -192,7 +192,7 @@
       </a>
       <a
         href="#"
-        class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow transition-shadow"
+        class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow transition-shadow hover:shadow-lg"
       >
         <h5 class="mb-4 text-xl font-bold tracking-tight text-gray-900 text-center pb-2">
           Base de datos
