@@ -3,7 +3,7 @@
   <div class="mx-auto justify-center items-center flex">
     <div class="lg:flex md:flex mb-2">
       <div
-        class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mx-auto mb-4 lg:mb-0 sm:mb-4"
+        class="max-w-xs bg-white border border-gray-200 rounded-lg shadow mx-auto mb-4 lg:mb-0 sm:mb-4"
       >
         <a href="#">
           <img class="rounded-lg" src="../../public/fithub.png" alt="" />
@@ -13,12 +13,10 @@
         <p class="font-semibold text-xl mb-2">
           FitHub Software - Sistema de gestion para gimnasios
         </p>
-        <span
-          class="bg-green-100 text-black-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300"
+        <span class="bg-green-100 text-black-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded"
           >VueJs</span
         >
-        <span
-          class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300"
+        <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded"
           >Quasar</span
         >
         <p class="mt-4 max-w-md text-gray-700">
@@ -47,7 +45,7 @@
           <a target="_blank" href="https://fithub-software-v1.vercel.app/#/">
             <button
               type="button"
-              class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
             >
               <span class="text-black font-semibold">Preview</span>
               <svg

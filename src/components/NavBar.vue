@@ -6,12 +6,12 @@
         id="navbar-default"
       >
         <ul
-          class="font-medium text-sm sm:text-sm flex flex-row space-x-8 rtl:space-x-reverse rounded-lg md:mt-0 md:border-0 dark:border-gray-700"
+          class="font-medium text-sm sm:text-sm flex flex-row space-x-8 rtl:space-x-reverse rounded-lg md:mt-0 md:border-0"
         >
           <li>
             <a
               href="#experiencia"
-              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               aria-current="page"
               >Experiencia</a
             >
@@ -19,21 +19,21 @@
           <li>
             <a
               href="#proyectos"
-              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >Proyectos</a
             >
           </li>
           <li>
             <a
               href="#stack"
-              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >Stack</a
             >
           </li>
           <li>
             <a
               href="#sobremi"
-              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
               >Sobre mi</a
             >
           </li>

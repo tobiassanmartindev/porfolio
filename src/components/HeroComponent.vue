@@ -1,13 +1,13 @@
 <template>
-  <section class="bg-white dark:bg-gray-900 pt-[72px]">
+  <section class="bg-white pt-[72px]">
     <div class="grid max-w-screen-lg px-4 pt-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div class="mr-auto place-self-center lg:col-span-7">
         <h1
-          class="max-w-xl mb-4 text-3xl font-bold tracking-tight leading-none md:text-2xl xl:text-5xl dark:text-white"
+          class="max-w-xl mb-4 text-3xl font-bold tracking-tight leading-none md:text-2xl xl:text-5xl"
         >
           Hola! Soy Tobias
         </h1>
-        <p class="max-w-xl mb-6 font-semibold text-gray-500 lg:mb-8 lg:text-2xl dark:text-gray-400">
+        <p class="max-w-xl mb-6 font-semibold text-gray-500 lg:mb-8 lg:text-2xl">
           +3 años de experiencia. <span class="font-bold">Desarrollador Frontend</span> de
           Argentina, transformando ideas en aplicaciones funcionales con código limpio y eficiente.
         </p>
@@ -15,7 +15,7 @@
           <a href="mailto:tobiassanmartin.work@gmail.com">
             <button
               type="button"
-              class="text-white bg-dark mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              class="text-white bg-dark mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
             >
               <span class="text-black font-semibold"> Contactame </span>
 
@@ -37,7 +37,7 @@
           >
             <button
               type="button"
-              class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
             >
               <span class="text-black font-semibold">Linkedin</span>
               <svg
@@ -55,7 +55,7 @@
           <a href="../../public/cv.pdf" download="tobias-sanmartin-cv.pdf">
             <button
               type="button"
-              class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
             >
               <span class="text-black font-semibold">CV</span>
               <svg
