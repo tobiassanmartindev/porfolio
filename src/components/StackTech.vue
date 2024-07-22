@@ -1,12 +1,14 @@
 <template>
-  <div class="font-bold text-2xl text-center mt-14">Stack de Tecnologias</div>
+  <div class="font-bold text-2xl text-center mt-14">Stack de Tecnologías</div>
   <div class="flex items-center justify-center mt-10">
     <div class="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 gap-10">
       <a
         href="#"
         class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow transition-shadow hover:shadow-lg"
       >
-        <h5 class="mb-4 text-xl font-bold tracking-tight text-gray-900">Frontend</h5>
+        <h5 class="mb-4 text-xl font-bold tracking-tight text-gray-900 text-center pb-2">
+          Frontend
+        </h5>
         <div class="grid grid-cols-3 items-center gap-4">
           <div class="grid">
             <svg class="h-12 mx-auto w-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
@@ -192,7 +194,9 @@
         href="#"
         class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow transition-shadow"
       >
-        <h5 class="mb-4 text-xl font-bold tracking-tight text-gray-900">Base de datos</h5>
+        <h5 class="mb-4 text-xl font-bold tracking-tight text-gray-900 text-center pb-2">
+          Base de datos
+        </h5>
         <div class="grid grid-cols-3 items-center gap-4">
           <div class="grid">
             <svg
@@ -397,7 +401,9 @@
         href="#"
         class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow transition-shadow hover:shadow-lg"
       >
-        <h5 class="mb-4 text-xl font-bold tracking-tight text-gray-900">Herramientas</h5>
+        <h5 class="mb-4 text-xl font-bold tracking-tight text-gray-900 text-center pb-2">
+          Herramientas
+        </h5>
         <div class="grid grid-cols-3 items-center gap-4">
           <div class="grid">
             <svg
@@ -510,7 +516,9 @@
         href="#"
         class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow"
       >
-        <h5 class="mb-4 text-xl font-bold tracking-tight text-gray-900">Aprendiendo</h5>
+        <h5 class="mb-4 text-xl font-bold tracking-tight text-gray-900 text-center pb-2">
+          Aprendiendo
+        </h5>
         <div class="grid grid-cols-3 items-center gap-4">
           <div class="grid">
             <svg

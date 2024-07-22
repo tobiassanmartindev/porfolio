@@ -6,9 +6,9 @@
     </div>
     <div class="grid gap-4 mt-12 lg:px-0 md:px-0 sm:px-3">
       <p>
-        Soy Tobias Sanmartin, un
+        Soy Tobías Sanmartín, un
         <span class="font-semibold">desarrollador frontend con más de 3 años de experiencia</span>.
-        En mi trabajo lidero proyectos web utilizando tecnologías como HTML 5, CSS 3, JavaScript y
+        En mi trabajo, lidero proyectos web utilizando tecnologías como HTML5, CSS3, JavaScript y
         Vue.js.
       </p>
       <p>
@@ -19,8 +19,8 @@
       </p>
       <p>
         En mi tiempo libre, disfruto aprendiendo nuevas tecnologías y practicando
-        <span class="font-semibold">surf</span>. Soy un chico muy activo y
-        <span class="font-semibold">me gusta hacer actividades al aire libre</span>, creo que son
+        <span class="font-semibold">surf</span>. Soy una persona muy activa y
+        <span class="font-semibold">me gusta hacer actividades al aire libre</span>. Creo que son
         esenciales para mantener una salud estable y
         <span class="font-semibold">disfrutar de la vida</span>.
       </p>
