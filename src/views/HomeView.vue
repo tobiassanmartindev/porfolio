@@ -6,7 +6,7 @@ import ProyectosH from '@/components/ProyectosH.vue'
 import StackTech from '@/components/StackTech.vue'
 import AboutMe from '@/components/AboutMe.vue'
 import FooterSection from '@/components/FooterSection.vue'
-import SoftSkills from '@/components/SoftSkills.vue'
+// import SoftSkills from '@/components/SoftSkills.vue'
 </script>
 
 <template>
@@ -16,7 +16,7 @@ import SoftSkills from '@/components/SoftSkills.vue'
     <ExperienciaLaboral />
     <ProyectosH />
     <StackTech />
-    <SoftSkills />
+    <!-- <SoftSkills /> -->
     <AboutMe />
     <FooterSection />
   </div>
