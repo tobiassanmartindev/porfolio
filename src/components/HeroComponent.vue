@@ -52,7 +52,7 @@
               </svg>
             </button>
           </a>
-          <a href="../../public/cv.pdf" download="tobias-sanmartin-cv.pdf">
+          <a href="../../public/cv.pdf" download="tobias-sanmartin.pdf">
             <button
               type="button"
               class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
