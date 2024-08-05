@@ -9,7 +9,7 @@
         <h5 class="mb-4 text-xl font-bold tracking-tight text-gray-900 text-center pb-2">
           Frontend
         </h5>
-        <div class="grid grid-cols-3 items-center gap-4">
+        <div class="grid grid-cols-3 items-center gap-6">
           <div class="grid">
             <svg class="h-12 mx-auto w-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
               <path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" />
@@ -84,6 +84,21 @@
               <path d="M50.56 0 128 133.12 204.8 0h-47.36L128 51.2 97.92 0H50.56Z" fill="#35495E" />
             </svg>
             <span class="text-center font-semibold text-sm mt-2">VueJs</span>
+          </div>
+
+          <div class="grid">
+            <svg
+              class="h-12 mx-auto w-20"
+              viewBox="0 0 256 221"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid"
+            >
+              <path
+                fill="#00DC82"
+                d="M143.618 167.029h95.166c3.023 0 5.992-.771 8.61-2.237a16.963 16.963 0 0 0 6.302-6.115 16.324 16.324 0 0 0 2.304-8.352c0-2.932-.799-5.811-2.312-8.35L189.778 34.6a16.966 16.966 0 0 0-6.301-6.113 17.626 17.626 0 0 0-8.608-2.238c-3.023 0-5.991.772-8.609 2.238a16.964 16.964 0 0 0-6.3 6.113l-16.342 27.473-31.95-53.724a16.973 16.973 0 0 0-6.304-6.112A17.638 17.638 0 0 0 96.754 0c-3.022 0-5.992.772-8.61 2.237a16.973 16.973 0 0 0-6.303 6.112L2.31 141.975A16.302 16.302 0 0 0 0 150.325c0 2.932.793 5.813 2.304 8.352a16.964 16.964 0 0 0 6.302 6.115 17.628 17.628 0 0 0 8.61 2.237h59.737c23.669 0 41.123-10.084 53.134-29.758l29.159-48.983 15.618-26.215 46.874 78.742h-62.492l-15.628 26.214Zm-67.64-26.24-41.688-.01L96.782 35.796l31.181 52.492-20.877 35.084c-7.976 12.765-17.037 17.416-31.107 17.416Z"
+              />
+            </svg>
+            <span class="text-center font-semibold text-sm mt-2">Nuxt</span>
           </div>
 
           <div class="grid">

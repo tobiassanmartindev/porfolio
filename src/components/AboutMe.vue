@@ -8,8 +8,7 @@
       <p>
         Soy Tobías Sanmartín, un
         <span class="font-semibold">desarrollador frontend con más de 3 años de experiencia</span>.
-        En mi trabajo, lidero proyectos web utilizando tecnologías como HTML5, CSS3, JavaScript y
-        Vue.js.
+        Creo proyectos web utilizando tecnologías como HTML5, CSS3, JavaScript y Vue.js.
       </p>
       <p>
         Mi experiencia incluye el
