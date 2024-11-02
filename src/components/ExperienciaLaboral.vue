@@ -13,14 +13,31 @@
             ></div>
 
             <time class="mb-1 text-sm font-normal leading-none text-gray-400"
-              >Marzo 2022 - Actualidad</time
+              >Marzo 2022 - Mayo 2024</time
+            >
+            <h3 class="text-lg font-semibold text-gray-900">Desarrollador Freelance</h3>
+            <p class="mb-4 font-normal text-gray-500">
+              Actualmente, trabajo como desarrollador frontend freelance, ayudando a empresas y emprendedores a optimizar su presencia 
+              digital mediante el desarrollo de sitios web responsivos y aplicaciones web eficientes. Me especializo en transformar ideas 
+              de diseño en experiencias de usuario fluidas y atractivas, asegurando un código limpio y optimizado para un rendimiento superior. Con experiencia en HTML, CSS, JavaScript, 
+              y frameworks como Vue.js, me enfoco en proyectos que requieren atención al detalle y un enfoque centrado en el usuario.
+            </p>
+          </li>
+          <li class="mb-10 ms-4">
+            <div
+              class="absolute w-3 h-3 bg-teal-600 rounded-full mt-1.5 -start-1.5 border border-white"
+            ></div>
+
+            <time class="mb-1 text-sm font-normal leading-none text-gray-400"
+              >Marzo 2022 - Mayo 2024</time
             >
             <h3 class="text-lg font-semibold text-gray-900">Frontend Developer en WAVE IT</h3>
             <p class="mb-4 font-normal text-gray-500">
-              Actualmente trabajo en una empresa de desarrollo web, donde construyo páginas desde
-              diseños y hago mantenimiento de sistemas ya implementados. Me dedico a transformar
-              ideas en realidad a través de código limpio y soluciones eficientes, asegurando que
-              cada proyecto sea funcional y accesible.
+              Como Desarrollador Frontend en WAVE IT, lideré la implementación de sitios web y sistemas de gestión para 
+              clientes de diversas industrias. Me encargué de supervisar el diseño, crear documentación técnica y optimizar 
+              el código para mejorar la estructura y rendimiento de las aplicaciones. Colaboré estrechamente con el equipo de 
+              diseño para mejorar la experiencia del usuario y coordiné el flujo de desarrollo, asegurando la entrega puntual de 
+              los proyectos.
             </p>
           </li>
           <li class="mb-10 ms-4">
