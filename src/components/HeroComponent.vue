@@ -8,7 +8,7 @@
           Hola! Soy Tobias
         </h1>
         <p class="max-w-xl mb-6 font-semibold text-gray-500 lg:mb-8 lg:text-2xl">
-          +3 años de experiencia. <span class="font-bold">Desarrollador Frontend</span> de
+          +4 años de experiencia. <span class="font-bold">Desarrollador Frontend</span> de
           Argentina, transformando ideas en aplicaciones funcionales con código limpio y eficiente.
         </p>
         <p>

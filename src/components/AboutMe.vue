@@ -7,7 +7,7 @@
     <div class="grid gap-4 mt-12 lg:px-0 md:px-0 sm:px-3">
       <p>
         Soy Tobías Sanmartín, un
-        <span class="font-semibold">desarrollador frontend con más de 3 años de experiencia</span>.
+        <span class="font-semibold">desarrollador frontend con más de 4 años de experiencia</span>.
         Creo proyectos web utilizando tecnologías como HTML5, CSS3, JavaScript y Vue.js.
       </p>
       <p>

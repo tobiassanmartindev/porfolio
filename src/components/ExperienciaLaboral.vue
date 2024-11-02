@@ -13,7 +13,7 @@
             ></div>
 
             <time class="mb-1 text-sm font-normal leading-none text-gray-400"
-              >Marzo 2022 - Mayo 2024</time
+              >Mayo 2024 - Actualidad</time
             >
             <h3 class="text-lg font-semibold text-gray-900">Desarrollador Freelance</h3>
             <p class="mb-4 font-normal text-gray-500">
@@ -29,7 +29,7 @@
             ></div>
 
             <time class="mb-1 text-sm font-normal leading-none text-gray-400"
-              >Marzo 2022 - Mayo 2024</time
+              >Diciembre 2021 - Mayo 2024</time
             >
             <h3 class="text-lg font-semibold text-gray-900">Frontend Developer en WAVE IT</h3>
             <p class="mb-4 font-normal text-gray-500">
@@ -45,7 +45,7 @@
               class="absolute w-3 h-3 bg-teal-500 rounded-full mt-1.5 -start-1.5 border border-white"
             ></div>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400"
-              >Marzo 2021 - Marzo 2022</time
+              >Enero 2021 - Diciembre 2021</time
             >
             <h3 class="text-lg font-semibold text-gray-900">Desarrollador Freelance</h3>
             <p class="text-base font-normal text-gray-500">
