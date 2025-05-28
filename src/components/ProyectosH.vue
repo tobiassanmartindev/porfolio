@@ -11,7 +11,7 @@
       </div>
       <div class="pl-7">
         <p class="font-semibold text-xl mb-2">
-          Sistema Pos - Sistema de gestion para comercios
+          ComerciOS - Sistema de gestion para comercios
         </p>
         <span class="bg-green-100 text-black-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded"
           >VueJs</span
@@ -29,15 +29,15 @@
          Un sistema punto de venta, para la gestión comercial que permite llevar 
          tanto el control del stock como el seguimiento de las ventas a detalle.
         </p>
-        <div class="mt-4">
-          <router-link to="/proyecto/sistemapos">
+        <div class="mt-4">          
+          <a href="https://comerci-os.vercel.app/" target="_blank">
             <button
               type="button"
               class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
             >
               <span class="text-black font-semibold">Ver más</span>
             </button>
-          </router-link>
+          </a>
         </div>
       </div>
     </div>
