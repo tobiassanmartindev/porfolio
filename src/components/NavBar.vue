@@ -1,8 +1,8 @@
 <template>
-  <nav class="border-gray-200 fixed w-full z-20 top-2 start-0 z-50 bg-transparent">
+  <nav class=" fixed w-full z-20 top-2 start-0 z-50">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto">
       <div
-        class="block py-2 px-5 backdrop-blur-sm bg-white/60 rounded-full shadow"
+        class="block py-2 px-5 backdrop-blur-sm bg-white/20 rounded-full shadow"
         id="navbar-default"
       >
         <ul
@@ -11,7 +11,7 @@
           <li>
             <a
               href="#experiencia"
-              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+              class="block py-0 px-0 lg:px-1 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
               aria-current="page"
               >Experiencia</a
             >
@@ -19,21 +19,21 @@
           <li>
             <a
               href="#proyectos"
-              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+              class="block py-0 px-0 lg:px-1 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
               >Proyectos</a
             >
           </li>
           <li>
             <a
               href="#stack"
-              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+              class="block py-0 px-0 lg:px-1 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
               >Stack</a
             >
           </li>
           <li>
             <a
               href="#sobremi"
-              class="block py-0 px-0 lg:px-1 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+              class="block py-0 px-0 lg:px-1 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
               >Sobre mi</a
             >
           </li>

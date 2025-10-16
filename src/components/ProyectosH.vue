@@ -1,110 +1,245 @@
 <template>
-  <div class="font-bold text-2xl text-center mb-10">Proyectos</div>
-  <div class="mx-auto justify-center items-center flex">
-    <div class="lg:flex md:flex mb-2">
-      <div
-        class="max-w-xs bg-white border border-gray-200 rounded-lg shadow mx-auto mb-4 lg:mb-0 sm:mb-4"
-      >
-        <a href="#">
-          <img class="rounded-lg" src="../../public/sistema-pos.png" alt="" />
+  <section class="py-16 bg-[#0f172a]">
+    <h2 class="font-bold text-3xl text-center mb-12 text-white">
+      Algunos de los proyectos más destacados que he construido:
+    </h2>
+
+    <div
+      class="mx-auto flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
+    >
+      <!-- Imagen con animación hover -->
+      <div class="relative w-full lg:w-1/2 overflow-hidden rounded-xl group">
+        <a href="https://comerci-os.vercel.app/" target="_blank">
+          <img
+            class="rounded-xl transform transition-transform duration-500 group-hover:scale-105"
+            src="../../public/sistema-pos.png"
+            alt="ComerciOS - Sistema POS"
+          />
         </a>
       </div>
-      <div class="pl-7">
-        <p class="font-semibold text-xl mb-2">
-          ComerciOS - Sistema de gestion para comercios
+
+      <!-- Contenido -->
+      <div class="flex flex-col justify-center lg:w-1/2">
+        <h3 class="text-2xl font-semibold text-white mb-4">
+          ComerciOS - Sistema de gestión
+        </h3>
+
+        <p class="text-gray-400 mb-6">
+          Un sistema punto de venta para la gestión comercial que permite llevar
+          tanto el control del stock como el seguimiento de las ventas a detalle.
         </p>
-        <span class="bg-green-100 text-black-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded"
-          >VueJs</span
-        >
-        <span class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded"
-          >Quasar</span
-        >
-        <span class="bg-green-100 text-black-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded"
-          >Supabase</span
-        >
-        <span class="bg-yellow-100 text-black-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded"
-          >Pinia</span
-        >
-        <p class="mt-4 max-w-md text-gray-700">
-         Un sistema punto de venta, para la gestión comercial que permite llevar 
-         tanto el control del stock como el seguimiento de las ventas a detalle.
-        </p>
-        <div class="mt-4">          
+
+        <!-- Badges -->
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span
+            v-for="tech in technologies[0]"
+            :key="tech.name"
+            :class="[
+              'text-xs font-medium px-3 py-1.5 rounded-full transition-transform duration-300 hover:scale-110 cursor-pointer',
+              tech.color,
+            ]"
+          >
+            {{ tech.name }}
+          </span>
+        </div>
+
+        <!-- Botones -->
+        <div class="flex gap-4">
+          <!-- Botón Ver más -->
           <a href="https://comerci-os.vercel.app/" target="_blank">
             <button
               type="button"
-              class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
+              class="text-white font-semibold border border-indigo-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/30"
             >
-              <span class="text-black font-semibold">Ver más</span>
+              Ver más →
             </button>
           </a>
         </div>
       </div>
     </div>
-  </div>
-  <!-- <div
-    class="mx-auto justify-center items-center flex lg:ml-[-100px] xl:ml-[-100px] md:ml-[-10px] sm:ml-[-10px] mt-10"
-  >
-    <div class="lg:flex md:flex mb-2">
-      <div
-        class="max-w-xs bg-white border border-gray-200 rounded-lg shadow mx-auto mb-4 lg:mb-0 sm:mb-4"
-      >
-        <a href="#">
-          <img class="rounded-lg" src="../../public/ecommerce.png" alt="" />
-        </a>
-      </div>
-      <div class="pl-7">
-        <p class="font-semibold text-xl mb-2">VuEcommerce - Ecommerce Open Source</p>
-        <span class="bg-green-100 text-black-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded"
-          >VueJs</span
-        >
-        <span class="bg-blue-100 text-cyan-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded"
-          >TailwindCss</span
-        >
-        <p class="mt-4 max-w-md text-gray-700">
-          Un ecommerce Open Source completamente funcional hecho con Commerce.js .
+    <div
+      class="mx-auto mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
+    >      
+      <!-- Contenido -->
+      <div class="flex flex-col justify-center lg:w-1/2">
+        <h3 class="text-2xl font-semibold text-white mb-4">
+          SheetAnalizer - Generador de graficos
+        </h3>
+
+        <p class="text-gray-400 mb-6">
+          Herramienta que permite a los usuarios cargar archivos Excel y generar gráficos interactivos de manera sencilla y rápida.
         </p>
-        <div class="mt-4">
-          <a target="_blank" href="https://e-commerce-weld-eight.vercel.app/">
+
+        <!-- Badges -->
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span
+            v-for="tech in technologies[1]"
+            :key="tech.name"
+            :class="[
+              'text-xs font-medium px-3 py-1.5 rounded-full transition-transform duration-300 hover:scale-110 cursor-pointer',
+              tech.color,
+            ]"
+          >
+            {{ tech.name }}
+          </span>
+        </div>
+
+        <!-- Botones -->
+        <div class="flex gap-4">
+          <!-- Botón Ver más -->
+          <a href="https://comerci-os.vercel.app/" target="_blank">
             <button
               type="button"
-              class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
+              class="text-white font-semibold border border-indigo-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/30"
             >
-              <span class="text-black font-semibold">Preview</span>
+              Ver más →
+            </button>
+          </a>
+
+          <!-- Botón GitHub -->
+          <a href="https://github.com/tuusuario/comerci-os" target="_blank" aria-label="Ver en GitHub">
+            <button
+              type="button"
+              class="flex items-center gap-2 text-white border border-gray-500 rounded-full text-sm px-5 py-2 transition-all duration-300 hover:bg-gray-800 hover:border-gray-400 hover:scale-105 hover:shadow-md"
+            >
+              <!-- Icono GitHub -->
               <svg
+                viewBox="0 0 1024 1024"
+                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                class="rtl:rotate-180 w-6 h-6 ms-2"
-                viewBox="0 0 24 24"
+                class="w-5 h-5 fill-white"
               >
-                <title>link-variant</title>
                 <path
-                  d="M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"
+                  transform="scale(64)"
                 />
               </svg>
+              <span class="font-medium">GitHub</span>
             </button>
-            <a href="https://github.com/tobiassanmartindev/vue-commerce" target="_blank">
-              <button
-                type="button"
-                class="text-white bg-white mr-3 text-black border border-black rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100"
-              >
-                <span class="text-black font-semibold">Codigo</span>
-                <svg
-                  viewBox="0 0 256 250"
-                  class="rtl:rotate-180 w-6 h-6 ms-2"
-                  fill="#24292f"
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="xMidYMid"
-                >
-                  <path
-                    d="M128.001 0C57.317 0 0 57.307 0 128.001c0 56.554 36.676 104.535 87.535 121.46 6.397 1.185 8.746-2.777 8.746-6.158 0-3.052-.12-13.135-.174-23.83-35.61 7.742-43.124-15.103-43.124-15.103-5.823-14.795-14.213-18.73-14.213-18.73-11.613-7.944.876-7.78.876-7.78 12.853.902 19.621 13.19 19.621 13.19 11.417 19.568 29.945 13.911 37.249 10.64 1.149-8.272 4.466-13.92 8.127-17.116-28.431-3.236-58.318-14.212-58.318-63.258 0-13.975 5-25.394 13.188-34.358-1.329-3.224-5.71-16.242 1.24-33.874 0 0 10.749-3.44 35.21 13.121 10.21-2.836 21.16-4.258 32.038-4.307 10.878.049 21.837 1.47 32.066 4.307 24.431-16.56 35.165-13.12 35.165-13.12 6.967 17.63 2.584 30.65 1.255 33.873 8.207 8.964 13.173 20.383 13.173 34.358 0 49.163-29.944 59.988-58.447 63.157 4.591 3.972 8.682 11.762 8.682 23.704 0 17.126-.148 30.91-.148 35.126 0 3.407 2.304 7.398 8.792 6.14C219.37 232.5 256 184.537 256 128.002 256 57.307 198.691 0 128.001 0Zm-80.06 182.34c-.282.636-1.283.827-2.194.39-.929-.417-1.45-1.284-1.15-1.922.276-.655 1.279-.838 2.205-.399.93.418 1.46 1.293 1.139 1.931Zm6.296 5.618c-.61.566-1.804.303-2.614-.591-.837-.892-.994-2.086-.375-2.66.63-.566 1.787-.301 2.626.591.838.903 1 2.088.363 2.66Zm4.32 7.188c-.785.545-2.067.034-2.86-1.104-.784-1.138-.784-2.503.017-3.05.795-.547 2.058-.055 2.861 1.075.782 1.157.782 2.522-.019 3.08Zm7.304 8.325c-.701.774-2.196.566-3.29-.49-1.119-1.032-1.43-2.496-.726-3.27.71-.776 2.213-.558 3.315.49 1.11 1.03 1.45 2.505.701 3.27Zm9.442 2.81c-.31 1.003-1.75 1.459-3.199 1.033-1.448-.439-2.395-1.613-2.103-2.626.301-1.01 1.747-1.484 3.207-1.028 1.446.436 2.396 1.602 2.095 2.622Zm10.744 1.193c.036 1.055-1.193 1.93-2.715 1.95-1.53.034-2.769-.82-2.786-1.86 0-1.065 1.202-1.932 2.733-1.958 1.522-.03 2.768.818 2.768 1.868Zm10.555-.405c.182 1.03-.875 2.088-2.387 2.37-1.485.271-2.861-.365-3.05-1.386-.184-1.056.893-2.114 2.376-2.387 1.514-.263 2.868.356 3.061 1.403Z"
-                  />
-                </svg>
-              </button>
-            </a>
           </a>
         </div>
       </div>
+
+      <!-- Imagen con animación hover -->
+      <div class="relative w-full lg:w-1/2 overflow-hidden rounded-xl group">
+        <a href="https://comerci-os.vercel.app/" target="_blank">
+          <img
+            class="rounded-xl transform transition-transform duration-500 group-hover:scale-105"
+            src="../../public/sheet-analizer.png"
+            alt="ComerciOS - Sistema POS"
+          />
+        </a>
+      </div>
     </div>
-  </div> -->
-  <div id="stack"></div>
+    <div
+      class="mx-auto mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
+    >      
+      
+      <!-- Imagen con animación hover -->
+      <div class="relative w-full lg:w-1/2 overflow-hidden rounded-xl group">
+        <a href="https://comerci-os.vercel.app/" target="_blank">
+          <img
+            class="rounded-xl transform transition-transform duration-500 group-hover:scale-105"
+            src="../../public/truco.png"
+            alt="ComerciOS - Sistema POS"
+          />
+        </a>
+      </div>
+
+      <!-- Contenido -->
+      <div class="flex flex-col justify-center lg:w-1/2">
+        <h3 class="text-2xl font-semibold text-white mb-4">
+          Truco argentino - Juego de cartas
+        </h3>
+
+        <p class="text-gray-400 mb-6">
+          Clasico truco argentino, un jugador vs máquina. Mazo de 40 cartas y mucha viveza criolla.
+        </p>
+
+        <!-- Badges -->
+        <div class="flex flex-wrap gap-2 mb-6">
+          <span
+            v-for="tech in technologies[2]"
+            :key="tech.name"
+            :class="[
+              
+              'text-xs font-medium px-3 py-1.5 rounded-full transition-transform duration-300 hover:scale-110 cursor-pointer',
+              tech.color,
+            ]"
+          >
+            {{ tech.name }}
+          </span>
+        </div>
+
+        <!-- Botones -->
+        <div class="flex gap-4">
+          <!-- Botón Ver más -->
+          <a href="https://comerci-os.vercel.app/" target="_blank">
+            <button
+              type="button"
+              class="text-white font-semibold border border-indigo-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/30"
+            >
+              Ver más →
+            </button>
+          </a>
+
+          <!-- Botón GitHub -->
+          <a href="https://github.com/tuusuario/comerci-os" target="_blank" aria-label="Ver en GitHub">
+            <button
+              type="button"
+              class="flex items-center gap-2 text-white border border-gray-500 rounded-full text-sm px-5 py-2 transition-all duration-300 hover:bg-gray-800 hover:border-gray-400 hover:scale-105 hover:shadow-md"
+            >
+              <!-- Icono GitHub -->
+              <svg
+                viewBox="0 0 1024 1024"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 fill-white"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"
+                  transform="scale(64)"
+                />
+              </svg>
+              <span class="font-medium">GitHub</span>
+            </button>
+          </a>
+        </div>
+      </div>
+
+    </div> 
+  </section>
 </template>
+
+<script setup>
+const technologies = [
+  [{ name: 'Vue.js', color: 'bg-green-200 text-black' },
+    { name: 'Quasar', color: 'bg-blue-200 text-black' },
+    { name: 'Supabase', color: 'bg-emerald-200 text-black' },
+    { name: 'Pinia', color: 'bg-yellow-200 text-black' }],
+    [{ name: 'Vue.js', color: 'bg-green-200 text-black' },
+    { name: 'Chart.js', color: 'bg-red-200 text-black' },
+    { name: 'Pinia', color: 'bg-yellow-200 text-black' }],
+    [{ name: 'Vue.js', color: 'bg-green-200 text-black' },
+    { name: 'Javascript', color: 'bg-yellow-200 text-black' },
+  { name: 'Mucho café', color: 'bg-amber-900 text-white' }]
+]
+</script>
+
+<style scoped>
+/* Micro interacción suave */
+img {
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+/* Sombra suave */
+section {
+  transition: box-shadow 0.4s ease-in-out;
+}
+</style>
+
+<div id="stack"></div>
