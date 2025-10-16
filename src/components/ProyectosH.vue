@@ -49,7 +49,7 @@
           <a href="https://comerci-os.vercel.app/" target="_blank">
             <button
               type="button"
-              class="text-white font-semibold border border-indigo-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/30"
+              class="text-white font-semibold border border-sky-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-sky-500 hover:shadow-lg hover:shadow-sky-500/30"
             >
               Ver más →
             </button>
@@ -90,7 +90,7 @@
           <a href="https://comerci-os.vercel.app/" target="_blank">
             <button
               type="button"
-              class="text-white font-semibold border border-indigo-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/30"
+              class="text-white font-semibold border border-sky-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-sky-500 hover:shadow-lg hover:shadow-sky-500/30"
             >
               Ver más →
             </button>
@@ -179,7 +179,7 @@
           <a href="https://comerci-os.vercel.app/" target="_blank">
             <button
               type="button"
-              class="text-white font-semibold border border-indigo-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-indigo-500 hover:shadow-lg hover:shadow-indigo-500/30"
+              class="text-white font-semibold border border-sky-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-sky-500 hover:shadow-lg hover:shadow-sky-500/30"
             >
               Ver más →
             </button>
