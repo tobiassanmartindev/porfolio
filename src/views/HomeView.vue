@@ -10,7 +10,7 @@ import FooterSection from '@/components/FooterSection.vue'
 </script>
 
 <template>
-  <div class="px-2">
+  <div class="">
     <NavBar />
     <HeroComponent />
     <ExperienciaLaboral />

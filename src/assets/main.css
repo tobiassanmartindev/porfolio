@@ -9,3 +9,7 @@ body {
   overflow-x: hidden;
   background-color: #0f172a;
 }
+
+#cursor-glow {
+    transition: transform 0.15s ease-out;
+  }

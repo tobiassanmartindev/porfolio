@@ -4,7 +4,7 @@ import Meditation from './Meditation.vue'
 </script>
 
 <template>
-  <section class="pt-[200px] h-[100vh] relative relative bg-gradient-to-b from-[#1e293b] to-[#0f172a]">
+  <section class="pt-[200px] w-full h-[100vh] relative relative bg-gradient-to-b from-[#1e293b] to-[#0f172a]">
     <!-- Fondo gradiente animado basado en #0f172a -->
     <div
       class="absolute animate-gradient-x opacity-90"
