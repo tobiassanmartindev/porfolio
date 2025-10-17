@@ -47,7 +47,7 @@
         <div class="flex gap-4">
           <!-- Botón Ver más -->
           <a href="https://comerci-os.vercel.app/" target="_blank">
-            <button>
+            <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
                 <span>Ver más</span>
                 <svg fill="#ffffff" class="w-4 h-4 ml-1" 
@@ -95,10 +95,10 @@
         <!-- Botones -->
         <div class="flex gap-4">
           <!-- Botón Ver más -->
-          <a href="https://comerci-os.vercel.app/" target="_blank">
-            <button>
+          <a href="https://sheet-analyzer-peach.vercel.app/" target="_blank">
+            <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
-                <span>Ver más</span>
+                <span>Ver demo</span>
                 <svg fill="#ffffff" class="w-4 h-4 ml-1" 
                   version="1.1" id="Capa_1" 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -113,8 +113,8 @@
           </a>
 
           <!-- Botón GitHub -->
-          <a href="https://github.com/tuusuario/comerci-os" target="_blank" aria-label="Ver en GitHub">
-            <button>
+          <a href="https://github.com/tobiassanmartindev/SheetAnalyzer" target="_blank" aria-label="Ver en GitHub">
+            <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
                 <svg
                 viewBox="0 0 1024 1024"
@@ -138,11 +138,11 @@
 
       <!-- Imagen con animación hover -->
       <div class="relative w-full lg:w-1/2 overflow-hidden rounded-xl group">
-        <a href="https://comerci-os.vercel.app/" target="_blank">
+        <a href="https://sheet-analyzer-peach.vercel.app/" target="_blank">
           <img
             class="rounded-xl transform transition-transform duration-500 group-hover:scale-105"
             src="../../public/sheet-analizer.png"
-            alt="ComerciOS - Sistema POS"
+            alt="Sheet-Analizer"
           />
         </a>
       </div>
@@ -153,11 +153,11 @@
       
       <!-- Imagen con animación hover -->
       <div class="relative w-full lg:w-1/2 overflow-hidden rounded-xl group">
-        <a href="https://comerci-os.vercel.app/" target="_blank">
+        <a href="https://truco-online-jade.vercel.app/" target="_blank">
           <img
             class="rounded-xl transform transition-transform duration-500 group-hover:scale-105"
             src="../../public/truco.png"
-            alt="ComerciOS - Sistema POS"
+            alt="Truco Argentino Online"
           />
         </a>
       </div>
@@ -190,10 +190,10 @@
         <!-- Botones -->
         <div class="flex gap-4">
           <!-- Botón Ver más -->
-          <a href="https://comerci-os.vercel.app/" target="_blank">
-            <button>
+          <a href="https://truco-online-jade.vercel.app/" target="_blank">
+            <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
-                <span>Ver más</span>
+                <span>Ver demo</span>
                 <svg fill="#ffffff" class="w-4 h-4 ml-1" 
                   version="1.1" id="Capa_1" 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -208,8 +208,8 @@
           </a>
 
           <!-- Botón GitHub -->
-          <a href="https://github.com/tuusuario/comerci-os" target="_blank" aria-label="Ver en GitHub">
-            <button>
+          <a href="https://github.com/tobiassanmartindev/truco-online.git" target="_blank" aria-label="Ver en GitHub">
+            <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
                 <svg
                 viewBox="0 0 1024 1024"
