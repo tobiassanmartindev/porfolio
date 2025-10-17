@@ -1,9 +1,6 @@
 <template>
-  <div class="font-bold text-3xl text-white text-center mt-32 mb-20">Experiencia laboral</div>
+  <div class="font-bold text-3xl text-white text-center md:mt-[100px] sm:mt-[100px] xs:mt-[200px] xl:mt-[0px] lg:mt-[0px] mb-20">Experiencia laboral</div>
   <div class="lg:flex md:grid justify-center mb-10">
-    <!-- <div class="flex-none w-72 lg:mr-6 lg:mx-5 sm:mr-auto sm:mx-auto mx-auto">
-      <img src="../../public/pc.png" alt="computadora" class="w-72 mb-8" />
-    </div> -->
     <div class="flex-initial w-70">
       <div class="lg:w-[560px] md:w-[760px] mx-auto mt-4 lg:px-0 px-6">
         <ol class="relative border-s border-teal-200">
@@ -58,4 +55,5 @@
       </div>
     </div>
   </div>
+  <div id="proyectos"></div>
 </template>

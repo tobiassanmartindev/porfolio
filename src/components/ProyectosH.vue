@@ -1,6 +1,6 @@
 <template>
   <section class="py-16 bg-[#0f172a]">
-    <h2 class="font-bold text-3xl text-center mb-12 text-white">
+    <h2 class="font-bold text-3xl text-center mt-24 mb-12 text-white">
       Algunos de los proyectos más destacados que he construido:
     </h2>
 
@@ -47,11 +47,19 @@
         <div class="flex gap-4">
           <!-- Botón Ver más -->
           <a href="https://comerci-os.vercel.app/" target="_blank">
-            <button
-              type="button"
-              class="text-white font-semibold border border-sky-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-sky-500 hover:shadow-lg hover:shadow-sky-500/30"
-            >
-              Ver más →
+            <button>
+              <div class="button_top_cards flex items-center justify-center gap-2">
+                <span>Ver más</span>
+                <svg fill="#ffffff" class="w-4 h-4 ml-1" 
+                  version="1.1" id="Capa_1" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  xmlns:xlink="http://www.w3.org/1999/xlink" 
+                  viewBox="0 0 486.465 486.465" 
+                  xml:space="preserve" 
+                  stroke="#ffffff"><g id="SVGRepo_bgCarrier" 
+                  stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M453.323,39.655l-16.564-14.656C418.729,9.021,395.521,0.22,371.405,0.22c-28.223,0-55.118,12.079-73.791,33.143 L250.207,86.86c-6.105,6.876-9.164,15.722-8.608,24.901c0.557,9.166,4.642,17.576,11.518,23.673l4.438,3.94 c6.299,5.594,14.416,8.673,22.842,8.673l2.054-0.059c9.166-0.551,17.582-4.637,23.699-11.523l47.418-53.503 c8.342-9.416,24.169-10.362,33.601-2.026l16.558,14.688c4.748,4.203,7.57,10.021,7.955,16.384 c0.386,6.358-1.722,12.465-5.937,17.208L302.042,246.198c-6.982,7.887-19.377,10.164-28.734,5.342 c-14.577-7.519-33.58-3.93-44.392,8.256l-0.813,0.926c-7.573,8.518-10.727,19.838-8.674,31.104 c2.074,11.198,9.047,20.801,19.153,26.09c13.986,7.311,29.763,11.33,45.621,11.33h0.012c28.21,0,55.117-12.238,73.8-33.308 l103.691-117.046C497.746,138.226,494.004,75.731,453.323,39.655z"></path> <path d="M228.873,347.458c-13.669-12.103-36.426-10.743-48.574,2.938l-47.396,53.487c-8.342,9.412-24.159,10.387-33.58,2.043 l-16.576-14.705c-4.747-4.207-7.57-10.025-7.955-16.383c-0.387-6.348,1.722-12.453,5.935-17.196l103.692-116.974 c6.876-7.765,19.047-10.111,28.297-5.566c15.121,7.448,34.359,3.818,46.05-9.416c7.433-8.374,10.555-19.496,8.586-30.463 c-1.956-11.031-8.747-20.389-18.618-25.666c-14.201-7.604-30.274-11.624-46.466-11.624c-28.223,0-55.118,12.084-73.791,33.151 L24.772,308.038c-36.062,40.666-32.308,103.082,8.361,139.143l16.564,14.482c18.021,15.979,41.229,24.582,65.345,24.582 c0.011,0,0,0,0.011,0c28.223,0,55.129-11.889,73.812-32.957l47.388-53.379c6.116-6.887,9.176-15.691,8.618-24.819 c-0.533-9.068-4.736-17.694-11.538-23.706L228.873,347.458z"></path> </g> </g> </g></svg>
+              </div>
             </button>
           </a>
         </div>
@@ -88,22 +96,27 @@
         <div class="flex gap-4">
           <!-- Botón Ver más -->
           <a href="https://comerci-os.vercel.app/" target="_blank">
-            <button
-              type="button"
-              class="text-white font-semibold border border-sky-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-sky-500 hover:shadow-lg hover:shadow-sky-500/30"
-            >
-              Ver más →
+            <button>
+              <div class="button_top_cards flex items-center justify-center gap-2">
+                <span>Ver más</span>
+                <svg fill="#ffffff" class="w-4 h-4 ml-1" 
+                  version="1.1" id="Capa_1" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  xmlns:xlink="http://www.w3.org/1999/xlink" 
+                  viewBox="0 0 486.465 486.465" 
+                  xml:space="preserve" 
+                  stroke="#ffffff"><g id="SVGRepo_bgCarrier" 
+                  stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M453.323,39.655l-16.564-14.656C418.729,9.021,395.521,0.22,371.405,0.22c-28.223,0-55.118,12.079-73.791,33.143 L250.207,86.86c-6.105,6.876-9.164,15.722-8.608,24.901c0.557,9.166,4.642,17.576,11.518,23.673l4.438,3.94 c6.299,5.594,14.416,8.673,22.842,8.673l2.054-0.059c9.166-0.551,17.582-4.637,23.699-11.523l47.418-53.503 c8.342-9.416,24.169-10.362,33.601-2.026l16.558,14.688c4.748,4.203,7.57,10.021,7.955,16.384 c0.386,6.358-1.722,12.465-5.937,17.208L302.042,246.198c-6.982,7.887-19.377,10.164-28.734,5.342 c-14.577-7.519-33.58-3.93-44.392,8.256l-0.813,0.926c-7.573,8.518-10.727,19.838-8.674,31.104 c2.074,11.198,9.047,20.801,19.153,26.09c13.986,7.311,29.763,11.33,45.621,11.33h0.012c28.21,0,55.117-12.238,73.8-33.308 l103.691-117.046C497.746,138.226,494.004,75.731,453.323,39.655z"></path> <path d="M228.873,347.458c-13.669-12.103-36.426-10.743-48.574,2.938l-47.396,53.487c-8.342,9.412-24.159,10.387-33.58,2.043 l-16.576-14.705c-4.747-4.207-7.57-10.025-7.955-16.383c-0.387-6.348,1.722-12.453,5.935-17.196l103.692-116.974 c6.876-7.765,19.047-10.111,28.297-5.566c15.121,7.448,34.359,3.818,46.05-9.416c7.433-8.374,10.555-19.496,8.586-30.463 c-1.956-11.031-8.747-20.389-18.618-25.666c-14.201-7.604-30.274-11.624-46.466-11.624c-28.223,0-55.118,12.084-73.791,33.151 L24.772,308.038c-36.062,40.666-32.308,103.082,8.361,139.143l16.564,14.482c18.021,15.979,41.229,24.582,65.345,24.582 c0.011,0,0,0,0.011,0c28.223,0,55.129-11.889,73.812-32.957l47.388-53.379c6.116-6.887,9.176-15.691,8.618-24.819 c-0.533-9.068-4.736-17.694-11.538-23.706L228.873,347.458z"></path> </g> </g> </g></svg>
+              </div>
             </button>
           </a>
 
           <!-- Botón GitHub -->
           <a href="https://github.com/tuusuario/comerci-os" target="_blank" aria-label="Ver en GitHub">
-            <button
-              type="button"
-              class="flex items-center gap-2 text-white border border-gray-500 rounded-full text-sm px-5 py-2 transition-all duration-300 hover:bg-gray-800 hover:border-gray-400 hover:scale-105 hover:shadow-md"
-            >
-              <!-- Icono GitHub -->
-              <svg
+            <button>
+              <div class="button_top_cards flex items-center justify-center gap-2">
+                <svg
                 viewBox="0 0 1024 1024"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -117,6 +130,7 @@
                 />
               </svg>
               <span class="font-medium">GitHub</span>
+              </div>
             </button>
           </a>
         </div>
@@ -177,22 +191,27 @@
         <div class="flex gap-4">
           <!-- Botón Ver más -->
           <a href="https://comerci-os.vercel.app/" target="_blank">
-            <button
-              type="button"
-              class="text-white font-semibold border border-sky-400 rounded-full text-sm px-6 py-2 transition-all duration-300 hover:bg-sky-500 hover:shadow-lg hover:shadow-sky-500/30"
-            >
-              Ver más →
+            <button>
+              <div class="button_top_cards flex items-center justify-center gap-2">
+                <span>Ver más</span>
+                <svg fill="#ffffff" class="w-4 h-4 ml-1" 
+                  version="1.1" id="Capa_1" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  xmlns:xlink="http://www.w3.org/1999/xlink" 
+                  viewBox="0 0 486.465 486.465" 
+                  xml:space="preserve" 
+                  stroke="#ffffff"><g id="SVGRepo_bgCarrier" 
+                  stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M453.323,39.655l-16.564-14.656C418.729,9.021,395.521,0.22,371.405,0.22c-28.223,0-55.118,12.079-73.791,33.143 L250.207,86.86c-6.105,6.876-9.164,15.722-8.608,24.901c0.557,9.166,4.642,17.576,11.518,23.673l4.438,3.94 c6.299,5.594,14.416,8.673,22.842,8.673l2.054-0.059c9.166-0.551,17.582-4.637,23.699-11.523l47.418-53.503 c8.342-9.416,24.169-10.362,33.601-2.026l16.558,14.688c4.748,4.203,7.57,10.021,7.955,16.384 c0.386,6.358-1.722,12.465-5.937,17.208L302.042,246.198c-6.982,7.887-19.377,10.164-28.734,5.342 c-14.577-7.519-33.58-3.93-44.392,8.256l-0.813,0.926c-7.573,8.518-10.727,19.838-8.674,31.104 c2.074,11.198,9.047,20.801,19.153,26.09c13.986,7.311,29.763,11.33,45.621,11.33h0.012c28.21,0,55.117-12.238,73.8-33.308 l103.691-117.046C497.746,138.226,494.004,75.731,453.323,39.655z"></path> <path d="M228.873,347.458c-13.669-12.103-36.426-10.743-48.574,2.938l-47.396,53.487c-8.342,9.412-24.159,10.387-33.58,2.043 l-16.576-14.705c-4.747-4.207-7.57-10.025-7.955-16.383c-0.387-6.348,1.722-12.453,5.935-17.196l103.692-116.974 c6.876-7.765,19.047-10.111,28.297-5.566c15.121,7.448,34.359,3.818,46.05-9.416c7.433-8.374,10.555-19.496,8.586-30.463 c-1.956-11.031-8.747-20.389-18.618-25.666c-14.201-7.604-30.274-11.624-46.466-11.624c-28.223,0-55.118,12.084-73.791,33.151 L24.772,308.038c-36.062,40.666-32.308,103.082,8.361,139.143l16.564,14.482c18.021,15.979,41.229,24.582,65.345,24.582 c0.011,0,0,0,0.011,0c28.223,0,55.129-11.889,73.812-32.957l47.388-53.379c6.116-6.887,9.176-15.691,8.618-24.819 c-0.533-9.068-4.736-17.694-11.538-23.706L228.873,347.458z"></path> </g> </g> </g></svg>
+              </div>
             </button>
           </a>
 
           <!-- Botón GitHub -->
           <a href="https://github.com/tuusuario/comerci-os" target="_blank" aria-label="Ver en GitHub">
-            <button
-              type="button"
-              class="flex items-center gap-2 text-white border border-gray-500 rounded-full text-sm px-5 py-2 transition-all duration-300 hover:bg-gray-800 hover:border-gray-400 hover:scale-105 hover:shadow-md"
-            >
-              <!-- Icono GitHub -->
-              <svg
+            <button>
+              <div class="button_top_cards flex items-center justify-center gap-2">
+                <svg
                 viewBox="0 0 1024 1024"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -206,6 +225,7 @@
                 />
               </svg>
               <span class="font-medium">GitHub</span>
+              </div>
             </button>
           </a>
         </div>
@@ -213,6 +233,8 @@
 
     </div> 
   </section>
+  <div id="stack"></div>
+  
 </template>
 
 <script setup>
@@ -226,7 +248,7 @@ const technologies = [
     { name: 'Pinia', color: 'bg-yellow-200 text-black' }],
     [{ name: 'Vue.js', color: 'bg-green-200 text-black' },
     { name: 'Javascript', color: 'bg-yellow-200 text-black' },
-  { name: 'Mucho café', color: 'bg-amber-900 text-white' }]
+    { name: 'Mucho mate', color: 'bg-green-900 text-white' }]
 ]
 </script>
 
@@ -240,6 +262,93 @@ img {
 section {
   transition: box-shadow 0.4s ease-in-out;
 }
+
+@keyframes gradient-x {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 10s ease infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* --- Estilo de botones --- */
+button {
+  --button_radius: 0.75em;
+  --button_color: #0f172a;
+  --button_outline_color: #ffffff;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  transition: transform 0.2s ease;
+}
+
+.button_top {
+  /* display: block; */
+  /* box-sizing: border-box; */
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.15s ease, background 0.3s ease, color 0.3s ease;
+}
+
+.button_top_cards {
+  /* display: block; */
+  /* box-sizing: border-box; */
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  height: 40px;
+  width: 180px;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.15s ease, background 0.3s ease, color 0.3s ease;
+}
+
+button:hover .button_top_cards {
+  transform: translateY(-0.35em);
+  background: #15203b;
+}
+
+button:active .button_top_cards {
+  transform: translateY(0);
+}
+
+button:hover .button_top {
+  transform: translateY(-0.35em);
+  background: #192646;
+}
+
+button:active .button_top {
+  transform: translateY(0);
+}
+
 </style>
 
 <div id="stack"></div>
