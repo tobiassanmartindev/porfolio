@@ -1,15 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import Meditation from './Meditation.vue'
-
-// Añade un fade-in progresivo al texto e imagen al montar
-onMounted(() => {
-  const fadeEls = document.querySelectorAll('.fade-in-up')
-  fadeEls.forEach((el: any, i) => {
-    el.style.animationDelay = `${i * 0.2}s`
-    el.classList.add('animate-fadeInUp')
-  })
-})
 </script>
 
 <template>
