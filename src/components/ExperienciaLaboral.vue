@@ -1,5 +1,5 @@
 <template>
-  <div class="font-bold text-3xl text-white text-center md:mt-[100px] sm:mt-[100px] xs:mt-[200px] xl:mt-[0px] lg:mt-[0px] mb-20">Experiencia laboral</div>
+  <div class="text-experiencia-custom font-bold text-3xl text-white text-center mb-20">Experiencia laboral</div>
   <div class="lg:flex md:grid justify-center mb-10">
     <div class="flex-initial w-70">
       <div class="lg:w-[560px] md:w-[760px] mx-auto mt-4 lg:px-0 px-6">
@@ -57,3 +57,31 @@
   </div>
   <div id="proyectos"></div>
 </template>
+
+<style scoped>
+@media (max-width:506px) {
+  .text-experiencia-custom{
+    margin-top: 50px;
+  } 
+}
+@media (max-width:430px) {
+  .text-experiencia-custom{
+    margin-top: 100px;
+  } 
+}
+@media (max-width:415px) {
+  .text-experiencia-custom{
+    margin-top: 150px;
+  } 
+}
+@media (max-width:394px) {
+  .text-experiencia-custom{
+    margin-top: 200px;
+  } 
+}
+@media (max-width:369px) {
+  .text-experiencia-custom{
+    margin-top: 250px;
+  } 
+}
+</style>

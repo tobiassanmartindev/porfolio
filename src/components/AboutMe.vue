@@ -1,7 +1,7 @@
 <template>
   <div id="sobremi"></div>
 
-  <div class="font-bold text-2xl text-center mt-40 text-white">Sobre mi</div>
+  <div class="font-bold text-2xl text-center mt-40 text-white">Sobre mí</div>
   <div class="lg:flex md:flex sm:grid lg:max-w-[1000px] lg:mx-auto mr-3 mb-20">
     <div class="grid grid-cols-12 gap-4 mt-12 lg:px-0 md:px-0 sm:px-3">
       <div class="col-span-4">
