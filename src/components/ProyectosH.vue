@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16">
+  <div class="py-16">
     <h2 class="font-bold text-3xl text-center mt-24 mb-12 text-white">
       Algunos de los proyectos más destacados que he construido:
     </h2>
@@ -7,7 +7,6 @@
     <div
       class="lg:mx-auto mx-10 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
     >
-      <!-- Imagen con animación hover -->
       <div class="relative w-full lg:w-1/2 overflow-hidden rounded-xl group">
         <a href="https://comerci-os.vercel.app/" target="_blank">
           <img
@@ -18,7 +17,6 @@
         </a>
       </div>
 
-      <!-- Contenido -->
       <div class="flex flex-col justify-center lg:w-1/2">
         <h3 class="text-2xl font-semibold text-white mb-4">
           ComerciOS - Sistema de gestión
@@ -29,7 +27,6 @@
           tanto el control del stock como el seguimiento de las ventas a detalle.
         </p>
 
-        <!-- Badges -->
         <div class="flex flex-wrap gap-2 mb-6">
           <span
             v-for="tech in technologies[0]"
@@ -43,9 +40,7 @@
           </span>
         </div>
 
-        <!-- Botones -->
         <div class="flex gap-4">
-          <!-- Botón Ver más -->
           <a href="https://comerci-os.vercel.app/" target="_blank">
             <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
@@ -68,7 +63,6 @@
     <div
       class="lg:mx-auto mx-10 mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
     >      
-      <!-- Contenido -->
       <div class="flex flex-col justify-center lg:w-1/2">
         <h3 class="text-2xl font-semibold text-white mb-4">
           SheetAnalizer - Generador de graficos
@@ -78,7 +72,6 @@
           Herramienta que permite a los usuarios cargar archivos Excel y generar gráficos interactivos de manera sencilla y rápida.
         </p>
 
-        <!-- Badges -->
         <div class="flex flex-wrap gap-2 mb-6">
           <span
             v-for="tech in technologies[1]"
@@ -92,9 +85,7 @@
           </span>
         </div>
 
-        <!-- Botones -->
-        <div class="flex gap-4">
-          <!-- Botón Ver más -->
+        <div class="lg:flex md:flex grid gap-4">
           <a href="https://sheet-analyzer-peach.vercel.app/" target="_blank">
             <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
@@ -112,7 +103,6 @@
             </button>
           </a>
 
-          <!-- Botón GitHub -->
           <a href="https://github.com/tobiassanmartindev/SheetAnalyzer" target="_blank" aria-label="Ver en GitHub">
             <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
@@ -136,7 +126,6 @@
         </div>
       </div>
 
-      <!-- Imagen con animación hover -->
       <div class="relative w-full lg:w-1/2 overflow-hidden rounded-xl group">
         <a href="https://sheet-analyzer-peach.vercel.app/" target="_blank">
           <img
@@ -147,11 +136,11 @@
         </a>
       </div>
     </div>
+     
     <div
       class="lg:mx-auto mx-10 mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
     >      
       
-      <!-- Imagen con animación hover -->
       <div class="relative w-full lg:w-1/2 overflow-hidden rounded-xl group">
         <a href="https://truco-online-jade.vercel.app/" target="_blank">
           <img
@@ -162,7 +151,6 @@
         </a>
       </div>
 
-      <!-- Contenido -->
       <div class="flex flex-col justify-center lg:w-1/2">
         <h3 class="text-2xl font-semibold text-white mb-4">
           Truco argentino - Juego de cartas
@@ -172,7 +160,6 @@
           Clasico truco argentino, un jugador vs máquina. Mazo de 40 cartas y mucha viveza criolla.
         </p>
 
-        <!-- Badges -->
         <div class="flex flex-wrap gap-2 mb-6">
           <span
             v-for="tech in technologies[2]"
@@ -187,9 +174,7 @@
           </span>
         </div>
 
-        <!-- Botones -->
-        <div class="flex gap-4">
-          <!-- Botón Ver más -->
+        <div class="lg:flex md:flex grid gap-4">
           <a href="https://truco-online-jade.vercel.app/" target="_blank">
             <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
@@ -207,7 +192,6 @@
             </button>
           </a>
 
-          <!-- Botón GitHub -->
           <a href="https://github.com/tobiassanmartindev/truco-online.git" target="_blank" aria-label="Ver en GitHub">
             <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
@@ -232,10 +216,10 @@
       </div>
 
     </div>
-    <div
+    
+    <!-- <div
       class="lg:mx-auto mx-10 mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
     >      
-      <!-- Contenido -->
       <div class="flex flex-col justify-center lg:w-1/2">
         <h3 class="text-2xl font-semibold text-white mb-4">
           UserFinder - Busqueda de usuarios, challenge técnico para entrevista.
@@ -245,7 +229,6 @@
           Descubra y administre perfiles de usuario con búsqueda y filtrado avanzados, Power by Random User API 
         </p>
 
-        <!-- Badges -->
         <div class="flex flex-wrap gap-2 mb-6">
           <span
             v-for="tech in technologies[3]"
@@ -259,9 +242,7 @@
           </span>
         </div>
 
-        <!-- Botones -->
         <div class="flex gap-4">
-          <!-- Botón Ver más -->
           <a href="https://oberstaff-challenge.vercel.app/" target="_blank">
             <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
@@ -279,7 +260,6 @@
             </button>
           </a>
 
-          <!-- Botón GitHub -->
           <a href="https://github.com/tobiassanmartindev/oberstaff-challenge" target="_blank" aria-label="Ver en GitHub">
             <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">
@@ -303,7 +283,6 @@
         </div>
       </div>
 
-      <!-- Imagen con animación hover -->
       <div class="relative w-full lg:w-1/2 overflow-hidden rounded-xl group">
         <a href="https://oberstaff-challenge.vercel.app/" target="_blank">
           <img
@@ -313,8 +292,8 @@
           />
         </a>
       </div>
-    </div>
-  </section>
+    </div> -->
+  </div>
   <div id="stack"></div>
   
 </template>

@@ -56,6 +56,8 @@ onMounted(() => {
         if (!section) return
 
         // Cambiar color y posición suavemente
+        console.log("cambia de seccion");
+        
         [circle1, circle2].forEach((c, i) => {
           if (!c) return
           c.style.transition = 'all 1s ease'
@@ -69,14 +71,23 @@ onMounted(() => {
   sections.forEach(s => {
     if (s.ref.value) circleObserver.observe(s.ref.value)
   })
+
+  console.log('Refs detectados al montar:')
+  console.log('heroRef:', heroRef.value)
+  console.log('experienciaRef:', experienciaRef.value)
+  console.log('proyectosRef:', proyectosRef.value)
+  console.log('stackRef:', stackRef.value)
+  console.log('aboutRef:', aboutRef.value)
+  console.log('footerRef:', footerRef.value)
+
 })
 </script>
 
 <template>
   <div class="relative overflow-hidden">
     <!-- Círculos de fondo -->
-    <div ref="circle1Ref" class="fixed fixed-custom top-10 left-10 w-64 h-64 rounded-full -z-10 filter blur-3xl opacity-20"></div>
-    <div ref="circle2Ref" class="fixed fixed-custom bottom-10 right-10 w-80 h-80 rounded-full -z-10 filter blur-3xl opacity-20"></div>
+    <div ref="circle1Ref" class="animate-pulse-slow fixed fixed-custom top-10 left-24 w-80 h-80 rounded-full -z-10"></div>
+    <div ref="circle2Ref" class="animate-pulse-slow fixed fixed-custom bottom-10 right-24 w-80 h-80 rounded-full -z-10"></div>
     
     
     <!-- Navbar -->
@@ -123,7 +134,7 @@ section {
 /* --- Círculos de fondo --- */
 .fixed-custom {
   filter: blur(80px);
-  opacity: 0.2;
+  opacity: 0.3;
   transition: all 1s ease;
 }
 
@@ -133,6 +144,6 @@ section {
   50% { opacity: 0.35; }
 }
 .animate-pulse-slow {
-  animation: pulse-slow 6s ease-in-out infinite;
+  animation: pulse-slow 8s ease-in-out infinite;
 }
 </style>

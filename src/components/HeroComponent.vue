@@ -34,7 +34,7 @@ import Meditation from './Meditation.vue'
         <div class="fade-in-up lg:flex md:flex gap-5 mt-20">
           <!-- CONTACTAME -->
           <a href="mailto:tobiassanmartin.work@gmail.com">
-            <button>
+            <button class="mb-4">
               <div class="button_top flex items-center justify-center gap-2">
                 <span>Contactame</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24">
@@ -52,7 +52,7 @@ import Meditation from './Meditation.vue'
             target="_blank"
             href="https://www.linkedin.com/in/tob%C3%ADas-sanmart%C3%ADn-001b74254/"
           >
-            <button class="group">
+            <button class="mb-4 group">
               <span class="button_top flex items-center justify-center gap-2">
                 <span>Linkedin</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24">
@@ -67,7 +67,7 @@ import Meditation from './Meditation.vue'
 
           <!-- CURRICULUM -->
           <a href="/tobias-sanmartin-cv.pdf" download="tobias-sanmartin.pdf">
-            <button class="group">
+            <button class="mb-4 group">
               <span class="button_top flex items-center justify-center gap-2">
                 <span>Curriculum</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24">
