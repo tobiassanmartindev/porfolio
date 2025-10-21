@@ -1,11 +1,11 @@
 <template>
-  <section class="py-16 bg-[#0f172a]">
+  <section class="py-16">
     <h2 class="font-bold text-3xl text-center mt-24 mb-12 text-white">
       Algunos de los proyectos más destacados que he construido:
     </h2>
 
     <div
-      class="mx-auto flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
+      class="lg:mx-auto mx-10 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
     >
       <!-- Imagen con animación hover -->
       <div class="relative w-full lg:w-1/2 overflow-hidden rounded-xl group">
@@ -66,7 +66,7 @@
       </div>
     </div>
     <div
-      class="mx-auto mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
+      class="lg:mx-auto mx-10 mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
     >      
       <!-- Contenido -->
       <div class="flex flex-col justify-center lg:w-1/2">
@@ -148,7 +148,7 @@
       </div>
     </div>
     <div
-      class="mx-auto mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
+      class="lg:mx-auto mx-10 mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
     >      
       
       <!-- Imagen con animación hover -->
@@ -233,7 +233,7 @@
 
     </div>
     <div
-      class="mx-auto mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
+      class="lg:mx-auto mx-10 mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
     >      
       <!-- Contenido -->
       <div class="flex flex-col justify-center lg:w-1/2">

@@ -1,5 +1,5 @@
 <template>
-  <nav class=" fixed w-full z-20 top-2 start-0 z-50">
+  <nav class="fixed w-full z-20 top-5 start-0 z-50">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto">
       <div
         class="block py-2 px-5 backdrop-blur-sm bg-white/20 rounded-full shadow"

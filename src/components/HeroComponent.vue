@@ -4,23 +4,19 @@ import Meditation from './Meditation.vue'
 </script>
 
 <template>
-  <section class="pt-[200px] w-full h-[100vh] relative relative bg-gradient-to-b from-[#1e293b] to-[#0f172a]">
+  <div class="pt-[200px] w-full h-[100vh] relative relative">
     <!-- Fondo gradiente animado basado en #0f172a -->
     <div
       class="absolute animate-gradient-x opacity-90"
       style="background: linear-gradient(-45deg, #0f172a, #1e293b, #0f172a, #1e293b)"
-    ></div>
-
-    <!-- Círculos decorativos difuminados -->
-    <div class="absolute top-10 left-20 w-64 h-64 bg-blue-500 opacity-20 blur-3xl rounded-full animate-pulse-slow"></div>
-    <div class="absolute bottom-10 right-10 w-80 h-80 bg-cyan-400 opacity-10 blur-3xl rounded-full animate-pulse-slow"></div>
+    ></div>    
 
     <!-- Contenido -->
     <div
-      class="relative grid max-w-screen-xl px-4 pt-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
+      class="relative grid max-w-screen-xl px-4 pt-8 lg:mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
     >
       <!-- Texto -->
-      <div class="mr-10 place-self-center lg:col-span-7 z-10">
+      <div class="mr-10 place-self-center sm:ml-20 lg:col-span-7 z-10">
         <h1
           class="fade-in-up max-w-xl mb-4 text-4xl font-extrabold text-white tracking-tight leading-tight md:text-5xl xl:text-6xl drop-shadow-lg"
         >
@@ -99,7 +95,7 @@ import Meditation from './Meditation.vue'
     </div>
   <div id="experiencia"></div>
 
-  </section>
+  </div>
 
 </template>
 
