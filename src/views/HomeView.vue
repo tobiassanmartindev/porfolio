@@ -103,9 +103,7 @@ onMounted(() => {
       <AboutMe />
     </section>
 
-    <section ref="footerRef">
-      <FooterSection />
-    </section>
+    <FooterSection />
   </div>
 </template>
 
