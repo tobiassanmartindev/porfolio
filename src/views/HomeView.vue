@@ -86,8 +86,8 @@ onMounted(() => {
 <template>
   <div class="relative overflow-hidden">
     <!-- Círculos de fondo -->
-    <div ref="circle1Ref" class="animate-pulse-slow fixed fixed-custom top-10 left-24 w-80 h-80 rounded-full -z-10"></div>
-    <div ref="circle2Ref" class="animate-pulse-slow fixed fixed-custom bottom-10 right-24 w-80 h-80 rounded-full -z-10"></div>
+    <div ref="circle1Ref" class="animate-pulse-slow fixed fixed-custom top-10 left-24 rounded-full -z-10"></div>
+    <div ref="circle2Ref" class="animate-pulse-slow fixed fixed-custom bottom-10 right-24 rounded-full -z-10"></div>
     
     
     <!-- Navbar -->
@@ -136,6 +136,8 @@ section {
   filter: blur(80px);
   opacity: 0.3;
   transition: all 1s ease;
+  width: 300px;
+  height: 300px;
 }
 
 /* --- Clase para animación pulse opcional --- */

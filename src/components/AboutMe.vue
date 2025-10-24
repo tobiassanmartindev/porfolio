@@ -1,34 +1,41 @@
 <template>
-  <div id="sobremi"></div>
+  <div id="sobremi" class="text-white py-32">
+    <h2 class="font-bold text-4xl text-center mb-12">Sobre mí</h2>
 
-  <div class="font-bold text-2xl text-center mt-40 text-white">Sobre mí</div>
-  <div class="flex lg:max-w-[1000px] lg:mx-auto mr-3 mb-20">
-    <div class="grid grid-cols-12 gap-4 mt-12 lg:px-0 md:px-0 sm:px-3">
-      <div class="col-span-12 lg:col-span-4">
-        <div class="flex-none w-72 lg:mr-6 lg:mx-5 sm:mr-auto sm:mx-auto mx-auto pb-12">
-          <img src="../../public/pc.png" alt="computadora" class="w-72" />
-        </div>
-      </div>
-      <div class="col-span-12 lg:col-span-8 mt-5 px-12 lg:px-2 text-xl">
-        <p class="text-gray-200">
-          Soy Tobías Sanmartín, un
-          <span class="font-semibold">desarrollador frontend con más de 4 años de experiencia</span>.
-          Creo proyectos web utilizando tecnologías como HTML5, CSS3, JavaScript y Vue.js.
-        </p><br>
-        <p class="text-gray-200">
-          Mi experiencia incluye el
-          <span class="font-semibold">desarrollo y mantenimiento de sitios web</span>, así como la
-          <span class="font-semibold">documentación técnica y la mejora continua de sistemas</span>.
-          Utilizo diversas herramientas para mejorar la eficiencia en mis proyectos.
-        </p><br>
-        <p class="text-gray-200">
-          En mi tiempo libre, disfruto aprendiendo nuevas tecnologías y practicando
-          <span class="font-semibold">surf</span>. Soy una persona muy activa y
-          <span class="font-semibold">me gusta hacer actividades al aire libre</span>. Creo que son
-          esenciales para mantener una salud estable y
-          <span class="font-semibold">disfrutar de la vida</span>.
-        </p>
-      </div>
+    <div class="max-w-[1000px] mx-auto text-2xl leading-relaxed text-gray-200 px-4 text-center">
+      <p class="mb-8">
+        Soy <span class="font-semibold text-white">Tobías Sanmartín</span>, un 
+        <span class="font-semibold text-white">desarrollador frontend con más de 4 años de experiencia</span>
+        creando interfaces web enfocadas en la precisión, la experiencia de usuario y la optimización del rendimiento.
+        Me apasiona convertir ideas en productos digitales que transmitan claridad, propósito y una buena sensación al usarse.
+      </p>
+
+      <p class="mb-8">
+        Trabajo principalmente con <span class="font-semibold text-white">Vue.js, Nuxt y Tailwind</span>, 
+        pero lo que más disfruto no es solo el código, sino el proceso: entender un problema, buscar su mejor enfoque y 
+        ver cómo una idea se transforma en algo que otras personas pueden usar y disfrutar. 
+        Creo que el desarrollo es tanto una disciplina técnica como una forma de arte.
+      </p>
+
+      <p class="mb-8">
+        A lo largo de mi experiencia en empresas como <span class="font-semibold text-white">WAVE IT</span> y 
+        <span class="font-semibold text-white">CUYO CODE</span>, aprendí que escribir buen código es importante, 
+        pero colaborar, escuchar y mejorar en conjunto con un equipo lo es aún más. 
+        Me gusta pensar que cada línea de código deja una huella, no solo en un proyecto, sino en las personas que lo construyen.
+      </p>
+
+      <p class="mb-8">
+        Fuera del mundo del desarrollo, me encontrarás en el mar practicando 
+        <span class="font-semibold text-white">surf</span> o simplemente disfrutando del aire libre. 
+        Es ahí donde encuentro equilibrio: la naturaleza me recuerda que todo tiene su ritmo, 
+        y que la paciencia y la constancia son claves, tanto en la vida como en el código.
+      </p>
+
+      <p>
+        Creo profundamente en la mejora continua. Cada nuevo proyecto es una oportunidad de aprender algo distinto, 
+        de crecer como profesional y como persona. Mi objetivo no es solo construir software, 
+        sino también dejar una marca en cada experiencia digital que creo.
+      </p>
     </div>
   </div>
 </template>

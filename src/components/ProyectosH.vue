@@ -217,7 +217,7 @@
 
     </div>
     
-    <!-- <div
+    <div
       class="lg:mx-auto mx-10 mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
     >      
       <div class="flex flex-col justify-center lg:w-1/2">
@@ -292,7 +292,7 @@
           />
         </a>
       </div>
-    </div> -->
+    </div>
   </div>
   <div id="stack"></div>
   

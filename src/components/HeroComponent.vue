@@ -89,7 +89,7 @@ import Meditation from './Meditation.vue'
         <img
           src="../../public/about.png"
           alt="perfil"
-          class="object-contain rounded-full shadow-2xl border border-white/20 backdrop-blur-md"
+          class="object-contain rounded-full shadow-2xl border border-cyan-900 backdrop-blur-md"
         />
       </div>
     </div>

@@ -1,87 +1,109 @@
 <template>
-  <div class="text-experiencia-custom font-bold text-3xl text-white text-center mb-20">Experiencia laboral</div>
-  <div class="lg:flex md:grid justify-center mb-10">
-    <div class="flex-initial w-70">
-      <div class="lg:w-[560px] md:w-[760px] mx-auto mt-4 lg:px-0 px-6">
-        <ol class="relative border-s border-teal-200">
-          <li class="mb-8 ms-4">
-            <div
-              class="absolute w-3 h-3 bg-teal-600 rounded-full mt-1.5 -start-1.5 border border-white"
-            ></div>
+  <div class="relative px-4">
+    <h2 class="text-experiencia-custom font-bold text-4xl text-white text-center mb-24">
+      Experiencia Laboral
+    </h2>
 
-            <time class="mb-1 text-sm font-normal leading-none text-gray-400"
-              >Diciembre 2024 - Actualidad</time
-            >
-            <h3 class="text-lg font-semibold text-gray-100">Frontend Developer Freelance</h3>
-            <p class="mb-4 font-normal text-gray-100">
-              Actualmente, trabajo como desarrollador frontend freelance, ayudando a empresas y emprendedores a optimizar su presencia 
-              digital mediante el desarrollo de sitios web responsivos y aplicaciones web eficientes. Me especializo en transformar ideas 
-              de diseño en experiencias de usuario fluidas y atractivas, asegurando un código limpio y optimizado para un rendimiento superior. Con experiencia en HTML, CSS, JavaScript, 
-              y frameworks como Vue.js, me enfoco en proyectos que requieren atención al detalle y un enfoque centrado en el usuario.
-            </p>
-          </li>
-          <li class="mb-8 ms-4">
-            <div
-              class="absolute w-3 h-3 bg-teal-600 rounded-full mt-1.5 -start-1.5 border border-white"
-            ></div>
+    <div class="relative max-w-5xl mx-auto">
+      <!-- Línea central -->
+      <div class="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-teal-100 to-cyan-100 h-full"></div>
 
-            <time class="mb-1 text-sm font-normal leading-none text-gray-400"
-              >Mayo 2024 - Diciembre 2024</time
-            >
-            <h3 class="text-lg font-semibold text-gray-100">Frontend Developer en Cuyo Code</h3>
-            <p class="mb-4 font-normal text-gray-100">
-              Durante este periodo en Cuyo Code (contractor), realize el mantenimiento de su sistema principal.
-              Refactorizando Legacy Code, implementando estructuras nuevas, optimizando pantallas existentes y creando nuevas.
-            </p>
-          </li>
-          <li class="mb-10 ms-4">
-            <div
-              class="absolute w-3 h-3 bg-teal-600 rounded-full mt-1.5 -start-1.5 border border-white"
-            ></div>
+      <!-- Item 1 -->
+      <div class="flex justify-start mb-16 relative">
+        <div class="w-1/2 pr-12 text-right">
+          <time class="block text-gray-400 mb-2 text-sm">Diciembre 2024 - Actualidad</time>
+          <h3 class="text-3xl font-semibold text-white mb-2">
+            Frontend Developer Freelance
+          </h3>
+          <p class="text-xl text-gray-200 leading-relaxed">
+            Actualmente, trabajo como desarrollador frontend freelance, ayudando a empresas y emprendedores a optimizar su presencia 
+            digital mediante el desarrollo de sitios web responsivos y aplicaciones web eficientes.
+          </p>
+        </div>
 
-            <time class="mb-1 text-sm font-normal leading-none text-gray-400"
-              >Marzo 2022 - Marzo 2024</time
-            >
-            <h3 class="text-lg font-semibold text-gray-100">Frontend Developer en WAVE IT</h3>
-            <p class="mb-4 font-normal text-gray-200">
-              Como Desarrollador Frontend en WAVE IT, lideré la implementación de sitios web y sistemas de gestión para 
-              clientes de diversas industrias. Me encargué de supervisar el diseño, crear documentación técnica y optimizar 
-              el código para mejorar la estructura y rendimiento de las aplicaciones. Colaboré estrechamente con el equipo de 
-              diseño para mejorar la experiencia del usuario y coordiné el flujo de desarrollo, asegurando la entrega puntual de 
-              los proyectos.
-            </p>
-          </li>
-        </ol>
+        <!-- Icono en el centro -->
+        <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-2 bg-gray-900 border-2 border-teal-400 rounded-full p-3 shadow-lg">
+          <svg viewBox="0 0 16 16" fill="#14b8a6" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+            <path d="M8.01005 0.858582L6.01005 14.8586L7.98995 15.1414L9.98995 1.14142L8.01005 0.858582Z"></path>
+            <path d="M12.5 11.5L11.0858 10.0858L13.1716 8L11.0858 5.91422L12.5 4.5L16 8L12.5 11.5Z"></path>
+            <path d="M2.82843 8L4.91421 10.0858L3.5 11.5L0 8L3.5 4.5L4.91421 5.91422L2.82843 8Z"></path>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="flex justify-end mb-16 relative">
+        <div class="w-1/2 pl-12 text-left">
+          <time class="block text-gray-400 mb-2 text-sm">Mayo 2024 - Diciembre 2024</time>
+          <h3 class="text-3xl font-semibold text-white mb-2">
+            Frontend Developer en <br> Cuyo Code
+          </h3>
+          <p class="text-xl text-gray-200 leading-relaxed">
+            Durante este periodo en Cuyo Code (contractor), realicé mantenimiento del sistema principal,
+            refactorizando Legacy Code, implementando nuevas estructuras y optimizando pantallas.
+          </p>
+        </div>
+
+        <!-- Icono en el centro -->
+        <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-2 bg-gray-900 border-2 border-teal-400 rounded-full p-3 shadow-lg">
+          <svg viewBox="0 0 16 16" fill="#14b8a6" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+            <path d="M8.01005 0.858582L6.01005 14.8586L7.98995 15.1414L9.98995 1.14142L8.01005 0.858582Z"></path>
+            <path d="M12.5 11.5L11.0858 10.0858L13.1716 8L11.0858 5.91422L12.5 4.5L16 8L12.5 11.5Z"></path>
+            <path d="M2.82843 8L4.91421 10.0858L3.5 11.5L0 8L3.5 4.5L4.91421 5.91422L2.82843 8Z"></path>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="flex justify-start mb-10 relative">
+        <div class="w-1/2 pr-12 text-right">
+          <time class="block text-gray-400 mb-2 text-sm">Marzo 2022 - Marzo 2024</time>
+          <h3 class="text-3xl font-semibold text-white mb-2">
+            Frontend Developer en <br> WAVE IT
+          </h3>
+          <p class="text-xl text-gray-200 leading-relaxed">
+            Como desarrollador frontend en WAVE IT, lideré la implementación de sitios web y sistemas de gestión.
+            Coordiné el desarrollo y trabajé en optimización del rendimiento y experiencia de usuario.
+          </p>
+        </div>
+
+        <!-- Icono en el centro -->
+        <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-2 bg-gray-900 border-2 border-teal-400 rounded-full p-3 shadow-lg">
+          <svg viewBox="0 0 16 16" fill="#14b8a6" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+            <path d="M8.01005 0.858582L6.01005 14.8586L7.98995 15.1414L9.98995 1.14142L8.01005 0.858582Z"></path>
+            <path d="M12.5 11.5L11.0858 10.0858L13.1716 8L11.0858 5.91422L12.5 4.5L16 8L12.5 11.5Z"></path>
+            <path d="M2.82843 8L4.91421 10.0858L3.5 11.5L0 8L3.5 4.5L4.91421 5.91422L2.82843 8Z"></path>
+          </svg>
+        </div>
       </div>
     </div>
   </div>
-  <div id="proyectos"></div>
 </template>
 
 <style scoped>
-@media (max-width:506px) {
-  .text-experiencia-custom{
-    margin-top: 50px;
-  } 
+.text-experiencia-custom {
+  margin-top: 50px;
 }
-@media (max-width:430px) {
-  .text-experiencia-custom{
-    margin-top: 100px;
-  } 
-}
-@media (max-width:415px) {
-  .text-experiencia-custom{
-    margin-top: 150px;
-  } 
-}
-@media (max-width:394px) {
-  .text-experiencia-custom{
-    margin-top: 200px;
-  } 
-}
-@media (max-width:369px) {
-  .text-experiencia-custom{
-    margin-top: 250px;
-  } 
+
+@media (max-width: 768px) {
+  .max-w-5xl > div {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  .w-1\/2 {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .absolute.left-1\/2 {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .text-right,
+  .text-left {
+    text-align: center !important;
+  }
 }
 </style>
