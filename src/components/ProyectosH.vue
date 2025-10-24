@@ -1,6 +1,6 @@
 <template>
-  <div class="py-16">
-    <h2 class="font-bold text-3xl text-center mt-24 mb-12 text-white">
+  <div class="py-16" data-animation="fadeInUp">
+    <h2 class="font-bold text-3xl text-center mt-24 mb-12 text-white" data-animation="fadeIn">
       Algunos de los proyectos más destacados que he construido:
     </h2>
 
@@ -218,7 +218,7 @@
     </div>
     
     <div
-      class="lg:mx-auto mx-10 mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
+      class="lg:mx-auto mx-4 mt-20 flex flex-col lg:flex-row items-center gap-8 max-w-5xl bg-[#1e293b] rounded-2xl p-6 transition-all duration-500"
     >      
       <div class="flex flex-col justify-center lg:w-1/2">
         <h3 class="text-2xl font-semibold text-white mb-4">
@@ -242,7 +242,7 @@
           </span>
         </div>
 
-        <div class="flex gap-4">
+        <div class="lg:flex md:flex grid gap-4">
           <a href="https://oberstaff-challenge.vercel.app/" target="_blank">
             <button class="mt-3">
               <div class="button_top_cards flex items-center justify-center gap-2">

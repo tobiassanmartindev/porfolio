@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import Meditation from './Meditation.vue'
+import { applyScrollAnimations } from '@/animations'
+
+onMounted(() => {
+  applyScrollAnimations()
+})
+
 </script>
 
 <template>
-  <div class="pt-[200px] w-full h-[100vh] relative relative">
+  <div class="pt-[200px] w-full min-h-[100vh] relative" data-animation="fadeInUp">
     <!-- Fondo gradiente animado basado en #0f172a -->
     <div
       class="absolute animate-gradient-x opacity-90"
@@ -84,7 +89,7 @@ import Meditation from './Meditation.vue'
 
       <!-- Imagen (mantiene card flotante) -->
       <div
-        class="fade-in-up flex items-center justify-center w-72 h-72 lg:ml-24 sm:mx-auto z-10 animate-float-smooth mt-[50px] lg:mt-[0px]"
+        class="items-center justify-center w-72 h-72 lg:ml-24 sm:mx-auto mt-[50px] lg:mt-[0px]"
       >
         <img
           src="../../public/about.png"
@@ -142,9 +147,9 @@ import Meditation from './Meditation.vue'
     transform: translateY(0);
   }
 }
-.animate-float-smooth {
+/* .animate-float-smooth {
   animation: float-smooth 5s ease-in-out infinite;
-}
+} */
 
 /* --- Fade-in de texto e imagen --- */
 @keyframes fadeInUp {

@@ -21,20 +21,6 @@ const circle1Ref = ref(null)
 const circle2Ref = ref(null)
 
 onMounted(() => {
-  // IntersectionObserver para fade-in
-  const fadeObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('fade-in-up')
-        fadeObserver.unobserve(entry.target)
-      }
-    })
-  }, { threshold: 0.1 })
-
-  const allSections = [heroRef, experienciaRef, proyectosRef, stackRef, aboutRef, footerRef]
-  allSections.forEach(refEl => {
-    if (refEl.value) fadeObserver.observe(refEl.value)
-  })
 
   // IntersectionObserver para los círculos y cambio de color/movimiento
   const circle1 = circle1Ref.value
@@ -71,14 +57,6 @@ onMounted(() => {
   sections.forEach(s => {
     if (s.ref.value) circleObserver.observe(s.ref.value)
   })
-
-  console.log('Refs detectados al montar:')
-  console.log('heroRef:', heroRef.value)
-  console.log('experienciaRef:', experienciaRef.value)
-  console.log('proyectosRef:', proyectosRef.value)
-  console.log('stackRef:', stackRef.value)
-  console.log('aboutRef:', aboutRef.value)
-  console.log('footerRef:', footerRef.value)
 
 })
 </script>
@@ -119,18 +97,6 @@ onMounted(() => {
 </template>
 
 <style scoped>
-/* --- Secciones fade-in --- */
-section {
-  opacity: 0;
-  transform: translateY(40px);
-}
-
-.fade-in-up {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 1s ease-out, transform 1s ease-out;
-}
-
 /* --- Círculos de fondo --- */
 .fixed-custom {
   filter: blur(80px);
