@@ -1,5 +1,5 @@
 <template>
-  <div class="py-16" data-animation="fadeInUp">
+  <div id="proyectos" class="py-16" data-animation="fadeInUp">
     <h2 class="font-bold text-3xl text-center mt-24 mb-12 text-white" data-animation="fadeIn">
       Algunos de los proyectos más destacados que he construido:
     </h2>
@@ -295,7 +295,6 @@
     </div>
   </div>
   <div id="stack"></div>
-  
 </template>
 
 <script setup>
