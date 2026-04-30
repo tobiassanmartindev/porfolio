@@ -14,13 +14,13 @@
       <!-- Item 1 -->
       <div class="flex justify-start mb-16 relative md:justify-start">
         <div class="w-full md:w-1/2 md:pr-12 pl-16 md:pl-0 md:text-right" data-animation="fadeInLeft">
-          <time class="block text-gray-400 mb-2 text-sm">Diciembre 2024 - Actualidad</time>
+          <time class="block text-gray-400 mb-2 text-sm">marzo 2025 - Actualidad</time>
           <h3 class="text-2xl md:text-3xl font-semibold text-white mb-2">
-            Frontend Developer Freelance
+            Full Stack Developer en ComerciOS
           </h3>
           <p class="text-lg md:text-xl text-gray-200 leading-relaxed">
-            Actualmente, trabajo como desarrollador frontend freelance, ayudando a empresas y emprendedores a optimizar su presencia 
-            digital mediante el desarrollo de sitios web responsivos y aplicaciones web eficientes.
+            Actualmente, trabajo como desarrollador full stack en comerciOS, donde lidero el desarrollo de nuevas funcionalidades y mejoras en la plataforma.
+             Mi enfoque principal es garantizar un código limpio y eficiente, optimizando la experiencia del usuario y manteniendo la estabilidad del sistema.
           </p>
         </div>
 

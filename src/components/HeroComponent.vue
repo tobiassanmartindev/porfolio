@@ -31,7 +31,7 @@ onMounted(() => {
         <p
           class="fade-in-up max-w-xl mb-6 font-semibold text-gray-200 lg:mb-8 lg:text-2xl leading-relaxed"
         >
-          +4 años de experiencia. <span class="font-bold text-white">Desarrollador Frontend</span> de
+          +5 años de experiencia. <span class="font-bold text-white">Desarrollador FullStack</span> de
           Argentina, transformando ideas en aplicaciones funcionales con código limpio y eficiente.
         </p>
 
