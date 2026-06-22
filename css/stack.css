@@ -16,6 +16,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 22px;
+  margin-top: 105px;
 }
 
 .stack__category-label {
@@ -28,8 +29,10 @@
 }
 
 .stack__items {
+  --items-offset: -40px;
   display: flex;
   flex-direction: column;
+  margin-left: var(--items-offset);
   gap: 9px;
 }
 
@@ -63,10 +66,18 @@
   .stack__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .stack__items {
+    --items-offset: -20px;
+  }
 }
 
 @media (max-width: 480px) {
   .stack__grid {
     grid-template-columns: 1fr;
+  }
+
+  .stack__items {
+    --items-offset: 0px;
   }
 }

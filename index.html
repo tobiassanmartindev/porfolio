@@ -61,6 +61,7 @@
   <link rel="stylesheet" href="css/services.css">
   <link rel="stylesheet" href="css/projects.css">
   <link rel="stylesheet" href="css/stack.css">
+  <link rel="stylesheet" href="css/arkanoid.css">
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -465,6 +466,20 @@
             </ul>
           </div>
         </div>
+
+        <!-- ===== JUGAR ===== -->
+        <div id="stack-play-wrap">
+          <button id="btn-jugar" class="stack__play-btn" aria-label="Iniciar minijuego Arkanoid con el stack tecnológico">
+            <span>&#9654; JUGAR</span>
+          </button>
+        </div>
+
+        <!-- ===== ARKANOID ===== -->
+        <div id="arkanoid-container" role="application" aria-label="Minijuego Arkanoid">
+          <canvas id="arkanoid-canvas" aria-label="Campo de juego Arkanoid — usa el mouse o las flechas para mover la barra"></canvas>
+          <button id="btn-arkanoid-close" aria-label="Cerrar minijuego">&#10005; Salir del juego</button>
+        </div>
+
       </section>
 
       <!-- ===== SOBRE MÍ ===== -->
@@ -588,5 +603,7 @@
   </div><!-- /.site-wrapper -->
 
   <script type="module" src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  <script src="js/arkanoid.js"></script>
 </body>
 </html>
