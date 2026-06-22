@@ -1,0 +1,72 @@
+/* ===== Stack ===== */
+.stack {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 90px 24px;
+}
+
+.stack__header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.stack__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.stack__category-label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--accent);
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.stack__items {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.stack__item {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  font-size: 14px;
+  transition: border-color 0.25s, transform 0.25s;
+}
+
+.stack__item:hover {
+  border-color: var(--accent);
+  transform: translateX(3px);
+}
+
+.stack__item-icon {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .stack__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .stack__grid {
+    grid-template-columns: 1fr;
+  }
+}

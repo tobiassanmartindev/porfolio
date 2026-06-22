@@ -1,0 +1,14 @@
+:root {
+  --bg: #080d1a;
+  --bg2: #0f172a;
+  --card: #111c33;
+  --card2: #0e1830;
+  --border: rgba(148, 163, 184, 0.13);
+  --ink: #e9eef8;
+  --muted: #94a4be;
+  --faint: #5d6e89;
+  --accent: #2cd4c5;
+  --accent2: #22d3ee;
+  --font-sans: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}

@@ -1,21 +1,592 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- ===== SEO ===== -->
+  <title>Tobías Sanmartín — Full Stack Developer | Argentina</title>
+  <meta name="description" content="Desarrollador Full Stack con +5 años de experiencia en React, Vue.js y TypeScript. Transformo ideas en aplicaciones web funcionales, eficientes y bien diseñadas. Disponible para proyectos freelance y full-time.">
+  <meta name="keywords" content="full stack developer, frontend developer, React, Vue.js, TypeScript, Node.js, Argentina, freelance, desarrollo web">
+  <meta name="author" content="Tobías Sanmartín">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://tobias.dev/">
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tobias.dev/">
+  <meta property="og:title" content="Tobías Sanmartín — Full Stack Developer">
+  <meta property="og:description" content="Desarrollador Full Stack con +5 años de experiencia. Especialista en React, Vue.js y TypeScript. Disponible para proyectos freelance y full-time.">
+  <meta property="og:image" content="https://tobias.dev/public/about.png">
+  <meta property="og:locale" content="es_AR">
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tobías Sanmartín — Full Stack Developer">
+  <meta name="twitter:description" content="Desarrollador Full Stack con +5 años de experiencia en React, Vue.js y TypeScript.">
+  <meta name="twitter:image" content="https://tobias.dev/public/about.png">
+
+  <!-- ===== Structured Data ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tobías Sanmartín",
+    "jobTitle": "Full Stack Developer",
+    "url": "https://tobias.dev",
+    "email": "tobiassanmartin.work@gmail.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/tobías-sanmartín-001b74254/",
+      "https://github.com/tobiassanmartindev"
+    ],
+    "knowsAbout": ["React", "Vue.js", "TypeScript", "Node.js", "Full Stack Development"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "AR"
+    }
+  }
+  </script>
+
+  <!-- ===== Fonts ===== -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <title>Porfolio - Tobias Sanmartin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- ===== CSS ===== -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/experience.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/stack.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
-
 <body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.js"></script>
-</body>
 
+  <!-- Skip navigation (accesibilidad) -->
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <!-- Scroll progress -->
+  <div class="progress-bar-wrap" aria-hidden="true">
+    <div id="scroll-progress" class="progress-bar"></div>
+  </div>
+
+  <div class="site-wrapper">
+
+    <!-- ===== Ambient background ===== -->
+    <div class="ambient" aria-hidden="true">
+      <div class="ambient__base"></div>
+      <div class="ambient__orb--a"></div>
+      <div class="ambient__orb--b"></div>
+      <div class="ambient__orb--c"></div>
+      <div id="starfield" style="position:absolute;inset:0;overflow:hidden;"></div>
+    </div>
+
+    <!-- ===== NAV ===== -->
+    <nav class="nav" aria-label="Navegación principal">
+      <div class="nav__inner">
+        <a href="#top" class="nav__brand" aria-label="Tobías Sanmartín — inicio">
+          <span class="nav__logo" aria-hidden="true">T</span>
+          <span class="nav__name">tobias<span>.dev</span></span>
+        </a>
+        <a href="#experiencia" class="nav__link">Experiencia</a>
+        <a href="#servicios"   class="nav__link">Servicios</a>
+        <a href="#proyectos"   class="nav__link">Proyectos</a>
+        <a href="#stack"       class="nav__link">Stack</a>
+        <a href="#contacto"    class="nav__cta">Contacto</a>
+      </div>
+    </nav>
+
+    <main id="main-content">
+
+      <!-- ===== HERO ===== -->
+      <header id="top" class="hero">
+        <div class="hero__content" data-animation="fadeInUp">
+
+          <div class="hero__badge">
+            <span class="hero__badge-dot" aria-hidden="true"></span>
+            <span class="hero__badge-text">Disponible para nuevos proyectos</span>
+          </div>
+
+          <p class="hero__prompt" aria-hidden="true">tobias@dev:~$ whoami</p>
+
+          <h1 class="hero__title">
+            Hola! Soy
+            <span class="hero__title-name">Tobias</span>
+          </h1>
+
+          <p class="hero__desc">
+            +5 años de experiencia. <strong>Desarrollador FullStack</strong> de Argentina,
+            transformando ideas en aplicaciones funcionales con código limpio y eficiente.
+          </p>
+
+          <div class="hero__actions">
+            <a href="mailto:tobiassanmartin.work@gmail.com" class="btn btn--primary">
+              Contactame
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13 19C13 18.66 13.04 18.33 13.09 18H4V8L12 13L20 8V13.09C20.72 13.21 21.39 13.46 22 13.81V6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H13.09C13.04 19.67 13 19.34 13 19M20 6L12 11L4 6H20M20 22V20H16V18H20V16L23 19L20 22Z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/tob%C3%ADas-sanmart%C3%ADn-001b74254/" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
+              LinkedIn
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"/></svg>
+            </a>
+            <a href="uploads/tobias-sanmartin-CV.pdf" target="_blank" rel="noopener" class="btn btn--outline">
+              Curriculum
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M23 19L20 16V18H16V20H20V22L23 19M13.8 22H6C4.9 22 4 21.1 4 20V4C4 2.9 4.9 2 6 2H14L20 8V13.1C19.7 13 19.3 13 19 13S18.3 13 18 13.1V9H13V4H6V20H13.1C13.2 20.7 13.5 21.4 13.8 22M8 12H16V13.8C15.9 13.9 15.8 13.9 15.7 14H8V12M8 16H13V18H8V16Z"/></svg>
+            </a>
+          </div>
+
+          <div class="hero__stats" aria-label="Estadísticas">
+            <div>
+              <div class="hero__stat-value"><span data-count="5" data-suffix="+">0</span></div>
+              <div class="hero__stat-label">años de exp.</div>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div>
+              <div class="hero__stat-value"><span data-count="10" data-suffix="+">0</span></div>
+              <div class="hero__stat-label">proyectos</div>
+            </div>
+            <div class="hero__stat-divider" aria-hidden="true"></div>
+            <div>
+              <div class="hero__stat-value"><span data-count="3" data-suffix="">0</span></div>
+              <div class="hero__stat-label">empresas</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terminal card -->
+        <div class="hero__card-wrap" data-animation="fadeInRight" data-delay="150">
+          <div class="hero__avatar">
+            <img src="public/about.png" alt="Foto de Tobías Sanmartín">
+          </div>
+          <div class="hero__terminal" aria-label="Tarjeta de presentación en formato código">
+            <div class="hero__terminal-bar" aria-hidden="true">
+              <span class="hero__terminal-dot hero__terminal-dot--red"></span>
+              <span class="hero__terminal-dot hero__terminal-dot--yellow"></span>
+              <span class="hero__terminal-dot hero__terminal-dot--green"></span>
+              <span class="hero__terminal-filename">tobias.js</span>
+            </div>
+            <div class="hero__terminal-body">
+              <div><span class="code-kw">const</span> <span class="code-var">tobias</span> <span class="code-op">=</span> <span class="code-op">{</span></div>
+              <div style="padding-left:22px"><span class="code-key">rol</span><span class="code-op">:</span> <span class="code-str">"Full Stack Developer"</span><span class="code-op">,</span></div>
+              <div style="padding-left:22px"><span class="code-key">ubicacion</span><span class="code-op">:</span> <span class="code-str">"Argentina 🇦🇷"</span><span class="code-op">,</span></div>
+              <div style="padding-left:22px"><span class="code-key">experiencia</span><span class="code-op">:</span> <span class="code-str">"+5 años"</span><span class="code-op">,</span></div>
+              <div style="padding-left:22px"><span class="code-key">stack</span><span class="code-op">:</span> <span class="code-op">[</span><span class="code-str">"Vue"</span><span class="code-op">,</span> <span class="code-str">"React"</span><span class="code-op">,</span> <span class="code-str">"TS"</span><span class="code-op">,</span> <span class="code-str">"Node"</span><span class="code-op">]</span><span class="code-op">,</span></div>
+              <div style="padding-left:22px"><span class="code-key">disponible</span><span class="code-op">:</span> <span class="code-kw">true</span><span class="code-op">,</span></div>
+              <div><span class="code-op">}</span></div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- ===== EXPERIENCIA ===== -->
+      <section id="experiencia" class="experience" aria-labelledby="exp-title">
+        <div class="experience__header" data-animation="fadeInUp">
+          <p class="section-tag">// 01 — trayectoria</p>
+          <h2 id="exp-title" class="section-title">Experiencia Laboral</h2>
+        </div>
+
+        <div class="experience__timeline">
+          <div class="experience__line" aria-hidden="true"></div>
+
+          <article class="experience__item experience__item--active" data-animation="fadeInLeft">
+            <div class="experience__dot experience__dot--active" aria-hidden="true">
+              <span class="experience__dot-inner"></span>
+            </div>
+            <time class="experience__date" datetime="2026-03">marzo 2026 — Actualidad · Freelance</time>
+            <h3 class="experience__role">Frontend Developer <span class="experience__company">· WK POINT</span></h3>
+            <p class="experience__desc">Responsable del desarrollo y mantenimiento del frontend de la plataforma WK POINT, asegurando su evolución y estabilidad. Implementé nuevas funcionalidades orientadas a operaciones comerciales y micro-frontends, optimizando hasta un 60% la respuesta del frontend.</p>
+          </article>
+
+          <article class="experience__item" data-animation="fadeInLeft" data-delay="80">
+            <div class="experience__dot" aria-hidden="true">
+              <span class="experience__dot-inner"></span>
+            </div>
+            <time class="experience__date" datetime="2024-06/2024-12">junio 2024 — diciembre 2024 · Contrato temporal</time>
+            <h3 class="experience__role">Frontend Developer <span class="experience__company">· Cuyo Code</span></h3>
+            <p class="experience__desc">Desarrollé aplicaciones frontend escalables con Vue 3, React.js y TypeScript bajo una arquitectura modular basada en componentes. Mejoré el rendimiento con lazy loading y optimización de bundles, e hice code reviews y mentoring de desarrolladores junior.</p>
+          </article>
+
+          <article class="experience__item" data-animation="fadeInLeft" data-delay="160">
+            <div class="experience__dot" aria-hidden="true">
+              <span class="experience__dot-inner"></span>
+            </div>
+            <time class="experience__date" datetime="2021-05/2024-05">mayo 2021 — mayo 2024</time>
+            <h3 class="experience__role">Frontend Developer <span class="experience__company">· WAVE IT</span></h3>
+            <p class="experience__desc">Desarrollé y mantuve interfaces con React.js y TypeScript, estandarizando componentes reutilizables tipo Design System. Implementé testing unitario y E2E con Vitest y Cypress, y mantuve una app ecommerce completa procesando pedidos y transacciones en tiempo real (React Native).</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== SERVICIOS ===== -->
+      <section id="servicios" class="services" aria-labelledby="services-title">
+        <div class="services__header" data-animation="fadeInUp">
+          <p class="section-tag">// 02 — en qué puedo ayudarte</p>
+          <h2 id="services-title" class="section-title">Servicios</h2>
+          <p class="services__subtitle">Construyo productos digitales de punta a punta — desde la idea hasta el deploy — con foco en performance, calidad y mantenibilidad.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card" data-animation="fadeInUp">
+            <div class="service-card__head">
+              <span class="service-card__icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </span>
+              <span class="service-card__num" aria-hidden="true">01</span>
+            </div>
+            <h3 class="service-card__title">Desarrollo Frontend</h3>
+            <p class="service-card__desc">Interfaces escalables, mantenibles y accesibles con React y Vue. Arquitectura basada en componentes y estándares web (WCAG 2.1).</p>
+          </article>
+
+          <article class="service-card" data-animation="fadeInUp" data-delay="80">
+            <div class="service-card__head">
+              <span class="service-card__icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+              </span>
+              <span class="service-card__num" aria-hidden="true">02</span>
+            </div>
+            <h3 class="service-card__title">Aplicaciones Full Stack</h3>
+            <p class="service-card__desc">Del backend a la UI: APIs RESTful y GraphQL, bases de datos SQL/NoSQL, Supabase y Firebase, con un flujo sólido entre cliente y servidor.</p>
+          </article>
+
+          <article class="service-card" data-animation="fadeInUp" data-delay="120">
+            <div class="service-card__head">
+              <span class="service-card__icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
+              </span>
+              <span class="service-card__num" aria-hidden="true">03</span>
+            </div>
+            <h3 class="service-card__title">Design Systems & Componentes</h3>
+            <p class="service-card__desc">Bibliotecas internas de componentes reutilizables que aseguran consistencia visual, velocidad de desarrollo y escalabilidad del producto.</p>
+          </article>
+
+          <article class="service-card" data-animation="fadeInUp" data-delay="160">
+            <div class="service-card__head">
+              <span class="service-card__icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></svg>
+              </span>
+              <span class="service-card__num" aria-hidden="true">04</span>
+            </div>
+            <h3 class="service-card__title">Performance & Calidad</h3>
+            <p class="service-card__desc">Optimización de renderizado, lazy loading y bundles (hasta 60% más rápido). Testing unitario y E2E con Vitest y Cypress, y code reviews.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ===== PROYECTOS ===== -->
+      <section id="proyectos" class="projects" aria-labelledby="projects-title">
+        <div class="projects__header" data-animation="fadeInUp">
+          <p class="section-tag">// 03 — trabajos destacados</p>
+          <h2 id="projects-title" class="section-title">Proyectos</h2>
+          <p class="projects__subtitle">Algunos de los proyectos más destacados que construí.</p>
+        </div>
+
+        <!-- Project 1: SheetAnalizer -->
+        <article class="project-card" data-animation="fadeInUp">
+          <div class="project-card__info">
+            <p class="project-card__num">_01</p>
+            <h3 class="project-card__title">SheetAnalizer</h3>
+            <p class="project-card__desc">Herramienta que permite cargar archivos Excel y generar gráficos interactivos de manera sencilla y rápida.</p>
+            <ul class="project-card__tags" aria-label="Tecnologías utilizadas">
+              <li class="tag tag--vue">Vue.js</li>
+              <li class="tag tag--chart">Chart.js</li>
+              <li class="tag tag--pinia">Pinia</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="https://sheet-analyzer-peach.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card__btn project-card__btn--primary">
+                Ver demo
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+              <a href="https://github.com/tobiassanmartindev/SheetAnalyzer" target="_blank" rel="noopener noreferrer" class="project-card__btn project-card__btn--ghost">
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2 .37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+          <a href="https://sheet-analyzer-peach.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card__image" aria-label="Ver SheetAnalizer en vivo">
+            <img src="public/sheet-analizer.png" alt="Captura de pantalla de SheetAnalizer mostrando gráficos interactivos" loading="lazy">
+          </a>
+        </article>
+
+        <!-- Project 2: Truco (reversed) -->
+        <article class="project-card project-card--reversed" data-animation="fadeInUp">
+          <a href="https://truco-online-jade.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card__image" aria-label="Ver Truco Argentino en vivo">
+            <img src="public/truco.png" alt="Captura de pantalla del juego Truco Argentino" loading="lazy">
+          </a>
+          <div class="project-card__info">
+            <p class="project-card__num">_02</p>
+            <h3 class="project-card__title">Truco Argentino</h3>
+            <p class="project-card__desc">Clásico truco argentino, un jugador vs máquina. Mazo de 40 cartas y mucha viveza criolla.</p>
+            <ul class="project-card__tags" aria-label="Tecnologías utilizadas">
+              <li class="tag tag--vue">Vue.js</li>
+              <li class="tag tag--js">JavaScript</li>
+              <li class="tag tag--mate">🧉 Mate</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="https://truco-online-jade.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card__btn project-card__btn--primary">
+                Ver demo
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+              <a href="https://github.com/tobiassanmartindev/truco-online.git" target="_blank" rel="noopener noreferrer" class="project-card__btn project-card__btn--ghost">
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2 .37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: UserFinder -->
+        <article class="project-card" data-animation="fadeInUp">
+          <div class="project-card__info">
+            <p class="project-card__num">_03</p>
+            <h3 class="project-card__title">UserFinder</h3>
+            <p class="project-card__desc">Búsqueda y filtrado avanzado de perfiles de usuario. Challenge técnico para entrevista, powered by Random User API.</p>
+            <ul class="project-card__tags" aria-label="Tecnologías utilizadas">
+              <li class="tag tag--vue">Vue.js</li>
+              <li class="tag tag--js">JavaScript</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="https://oberstaff-challenge.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card__btn project-card__btn--primary">
+                Ver demo
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+              <a href="https://github.com/tobiassanmartindev/oberstaff-challenge" target="_blank" rel="noopener noreferrer" class="project-card__btn project-card__btn--ghost">
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2 .37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+          <a href="https://oberstaff-challenge.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card__image" aria-label="Ver UserFinder en vivo">
+            <img src="public/userFinder.png" alt="Captura de pantalla de UserFinder mostrando filtrado de perfiles" loading="lazy">
+          </a>
+        </article>
+      </section>
+
+      <!-- ===== STACK ===== -->
+      <section id="stack" class="stack" aria-labelledby="stack-title">
+        <div class="stack__header" data-animation="fadeInUp">
+          <p class="section-tag">// 04 — herramientas</p>
+          <h2 id="stack-title" class="section-title">Stack Tecnológico</h2>
+        </div>
+
+        <div class="stack__grid">
+          <!-- Frontend -->
+          <div data-animation="fadeInUp">
+            <p class="stack__category-label">Frontend</p>
+            <ul class="stack__items" aria-label="Tecnologías frontend">
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="20" height="18" viewBox="-11.5 -10.23 23 20.46"><circle r="2.05" fill="#61DAFB"/><g stroke="#61DAFB" stroke-width="1" fill="none"><ellipse rx="11" ry="4.2"/><ellipse rx="11" ry="4.2" transform="rotate(60)"/><ellipse rx="11" ry="4.2" transform="rotate(120)"/></g></svg></span>
+                React.js
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="20" height="18" viewBox="0 0 256 221"><path d="M204.8 0H256L128 220.8 0 0h97.92L128 51.2 157.44 0h47.36Z" fill="#41B883"/><path d="m0 0 128 220.8L256 0h-51.2L128 132.48 50.56 0H0Z" fill="#41B883"/><path d="M50.56 0 128 133.12 204.8 0h-47.36L128 51.2 97.92 0H50.56Z" fill="#35495E"/></svg></span>
+                Vue.js 3
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 256 256"><rect width="256" height="256" rx="20" fill="#3178C6"/><path d="M150.5 200.5v27.6c4.5 2.3 9.8 4 15.9 5.2 6.1 1.1 12.6 1.7 19.4 1.7 6.6 0 12.9-.6 18.9-1.9 6-1.3 11.2-3.4 15.7-6.3 4.5-2.9 8-6.7 10.7-11.4 2.6-4.7 3.9-10.5 3.9-17.4 0-5-.7-9.4-2.2-13.2a30.7 30.7 0 0 0-6.5-10c-2.8-2.9-6.2-5.6-10.1-7.9-3.9-2.3-8.4-4.5-13.3-6.6-3.6-1.5-6.9-2.9-9.8-4.4-2.9-1.4-5.3-2.8-7.3-4.3-2-1.5-3.6-3-4.7-4.7-1.1-1.6-1.6-3.5-1.6-5.6 0-1.9.5-3.6 1.5-5.1s2.4-2.8 4.1-3.9c1.8-1.1 4-1.9 6.6-2.5 2.6-.6 5.5-.9 8.6-.9 2.3 0 4.7.2 7.3.5 2.6.3 5.1.9 7.7 1.6 2.6.7 5.1 1.6 7.6 2.7 2.4 1.1 4.7 2.4 6.8 3.8v-25.8c-4.2-1.6-8.8-2.8-13.8-3.6-5-.8-10.7-1.2-17.1-1.2-6.6 0-12.8.7-18.7 2.1-5.9 1.4-11 3.6-15.5 6.6-4.5 3-8 6.8-10.6 11.4-2.6 4.6-3.9 10.2-3.9 16.6 0 8.2 2.4 15.2 7.1 21 4.8 5.8 12 10.7 21.6 14.8 3.8 1.5 7.3 3.1 10.6 4.6 3.3 1.5 6.1 3 8.5 4.7 2.4 1.6 4.3 3.4 5.7 5.3 1.4 1.9 2.1 4 2.1 6.5 0 1.8-.4 3.4-1.3 5-.9 1.5-2.2 2.8-3.9 4-1.8 1.1-3.9 2-6.6 2.6-2.6.6-5.7 1-9.2 1-6 0-11.9-1-17.8-3.2-5.9-2.1-11.3-5.2-16.3-9.4Zm-46-68.7H140V109H41v22.7h35.3V233h28.1V131.7Z" fill="#FFF"/></svg></span>
+                TypeScript
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="20" height="13" viewBox="0 0 54 33"><path fill="#38bdf8" fill-rule="evenodd" d="M27 0c-7.2 0-11.7 3.6-13.5 10.8 2.7-3.6 5.85-4.95 9.45-4.05 2.054.513 3.522 2.004 5.147 3.653C30.744 13.09 33.808 16.2 40.5 16.2c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C36.756 3.11 33.692 0 27 0zM13.5 16.2C6.3 16.2 1.8 19.8 0 27c2.7-3.6 5.85-4.95 9.45-4.05 2.054.514 3.522 2.004 5.147 3.653C17.244 29.29 20.308 32.4 27 32.4c7.2 0 11.7-3.6 13.5-10.8-2.7 3.6-5.85 4.95-9.45 4.05-2.054-.513-3.522-2.004-5.147-3.653C23.256 19.31 20.192 16.2 13.5 16.2z" clip-rule="evenodd"/></svg></span>
+                Tailwind CSS
+              </li>
+            </ul>
+          </div>
+
+          <!-- Lenguajes -->
+          <div data-animation="fadeInUp" data-delay="80">
+            <p class="stack__category-label">Lenguajes &amp; Markup</p>
+            <ul class="stack__items" aria-label="Lenguajes de programación">
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 1052 1052"><path fill="#f0db4f" d="M0 0h1052v1052H0z"/><path d="M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.4-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.8 42.8 39.7 45.4-29.4 45.3-29.2 77-49.4-11.6-18-17.8-26.3-25.4-34-27.3-30.5-64.5-46.2-124-45l-31 4c-29.7 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.4 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.7 67.9-86 62-35.6-7.4-55.4-25.5-76.8-58.4l-79.9 46.1c9.6 21 19.7 30.5 35.8 48.7 76.2 77.3 266.9 73.5 301.1-43.5 1.4-4 10.6-30.8 3.2-72.1zm-394-317.6h-98.4c0 85-.4 169.4-.4 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.9-51.7 26.2-68.7 20.4-17.3-8.5-26.1-20.6-36.3-37.7l-5.6-9c-26.7 16.3-53.3 32.7-80 49 13.3 27.3 32.9 51 58 66.4 37.5 22.5 87.9 29.4 140.6 17.3 34.3-10 63.9-30.7 79.4-62.2 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z" fill="#323330"/></svg></span>
+                JavaScript
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="18" height="20" viewBox="0 0 452 520"><path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52"/><path fill="#ef652a" d="M226 472l149-41 35-394H226"/><path fill="#ecedee" d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z"/><path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z"/></svg></span>
+                HTML5
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="18" height="20" viewBox="0 0 512 512"><path fill="#264de4" d="M71.357 460.819 30.272 0h451.456l-41.129 460.746L255.724 512z"/><path fill="#2965f1" d="m405.388 431.408 35.148-393.73H256v435.146z"/><path fill="#ebebeb" d="m124.46 208.59 5.065 56.517H256V208.59zm-5.041-57.875H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"/><path fill="#fff" d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"/></svg></span>
+                CSS3
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="#7952B3"><path d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H5.003c-1.368 0-2.382-1.2-2.336-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.247-2.268V11.39c1.147-.108 1.837-.944 2.247-2.268.407-1.319.463-2.937.42-4.186-.046-1.3.968-2.5 2.336-2.5h13.994c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.103-2.629-2.207v-.027c1.231-.262 2.001-1.085 2.001-2.315 0-1.554-1.158-2.523-3.057-2.523h-4.05v9.166h4.213c2.087 0 3.522-.943 3.522-2.794z"/></svg></span>
+                Bootstrap
+              </li>
+            </ul>
+          </div>
+
+          <!-- Backend -->
+          <div data-animation="fadeInUp" data-delay="120">
+            <p class="stack__category-label">Backend &amp; Data</p>
+            <ul class="stack__items" aria-label="Tecnologías backend">
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="#5FA04E"><path d="M11.998 24c-.321 0-.641-.084-.922-.247l-2.936-1.737c-.438-.245-.224-.332-.08-.383.585-.203.703-.25 1.328-.604.065-.037.151-.023.218.017l2.256 1.339c.082.045.197.045.272 0l8.795-5.076c.082-.047.134-.141.134-.238V6.921c0-.099-.053-.192-.137-.242l-8.791-5.072c-.081-.047-.189-.047-.271 0L3.075 6.68c-.085.05-.139.146-.139.241v10.146c0 .097.054.189.139.235l2.409 1.392c1.307.654 2.108-.116 2.108-.89V7.787c0-.142.114-.253.256-.253h1.115c.139 0 .255.112.255.253v10.145c0 1.745-.95 2.745-2.604 2.745-.508 0-.909 0-2.026-.551L2.28 18.675c-.57-.329-.922-.945-.922-1.604V6.921c0-.659.353-1.275.922-1.603l8.795-5.082c.557-.315 1.296-.315 1.848 0l8.794 5.082c.57.329.924.944.924 1.603v10.146c0 .659-.354 1.273-.924 1.604l-8.794 5.078c-.281.163-.6.247-.926.247z"/></svg></span>
+                Node.js
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="19" height="20" viewBox="0 0 109 113" fill="none"><path d="M63.708 110.284c-2.86 3.601-8.658 1.628-8.727-2.97L53.974 40.063h45.22c8.19 0 12.758 9.46 7.665 15.875l-43.151 54.346Z" fill="#3ECF8E"/><path d="M45.317 2.071c2.86-3.601 8.658-1.628 8.726 2.97l.442 67.251H9.831C1.64 72.292-2.928 62.832 2.166 56.418L45.317 2.07Z" fill="#3ECF8E" opacity=".6"/></svg></span>
+                Supabase
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="18" height="20" viewBox="0 0 24 24" fill="#FFCA28"><path d="M3.89 15.673L6.255.461A.542.542 0 017.27.288l2.543 4.771zm16.794 3.692l-2.25-14a.54.54 0 00-.919-.295L3.316 19.365l7.856 4.427a1.621 1.621 0 001.588 0zM14.3 7.147l-1.82-3.482a.542.542 0 00-.96 0L3.53 17.984z"/></svg></span>
+                Firebase
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="19" height="20" viewBox="0 0 24 24" fill="#E10098"><path d="M12.002 0a2.138 2.138 0 100 4.277 2.138 2.138 0 100-4.277zm8.54 4.931a2.138 2.138 0 100 4.277 2.138 2.138 0 100-4.277zm0 9.862a2.138 2.138 0 100 4.277 2.138 2.138 0 100-4.277zm-8.54 4.931a2.138 2.138 0 100 4.276 2.138 2.138 0 100-4.276zm-8.541-4.931a2.138 2.138 0 100 4.277 2.138 2.138 0 100-4.277zm0-9.862a2.138 2.138 0 100 4.277 2.138 2.138 0 100-4.277zm8.541-1.6L2.953 6.31v11.38l9.049 5.221 9.049-5.221V6.31zm0 1.252l7.866 13.626H4.136zm-1.082.625L3.601 15.669V7.387zm2.164 0l6.835 3.946v8.282zM5.218 16.916h13.566l-6.783 3.916z"/></svg></span>
+                GraphQL
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tools -->
+          <div data-animation="fadeInUp" data-delay="160">
+            <p class="stack__category-label">Tools &amp; DevOps</p>
+            <ul class="stack__items" aria-label="Herramientas y DevOps">
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 256 256"><path d="M251.17 116.6 139.4 4.82a16.49 16.49 0 0 0-23.31 0l-23.21 23.2 29.44 29.45a19.57 19.57 0 0 1 24.8 24.96l28.37 28.38a19.61 19.61 0 1 1-11.75 11.06L137.28 95.4v69.64a19.62 19.62 0 1 1-16.13-.57V94.2a19.61 19.61 0 0 1-10.65-25.73L81.46 39.44 4.83 116.08a16.49 16.49 0 0 0 0 23.32L116.6 251.17a16.49 16.49 0 0 0 23.32 0l111.25-111.25a16.5 16.5 0 0 0 0-23.33" fill="#DE4C36"/></svg></span>
+                Git
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="20" height="18" viewBox="0 0 256 222" fill="#fff"><path d="m128 0 128 221.705H0z"/></svg></span>
+                Vercel
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 100 100"><path fill="#0065A9" d="M96.461 10.796 75.857.876a6.23 6.23 0 0 0-7.107 1.207l-67.451 61.5a4.167 4.167 0 0 0 .004 6.162l5.51 5.009a4.167 4.167 0 0 0 5.32.236l81.228-61.62c2.725-2.067 6.639-.124 6.639 3.297v-.24a6.25 6.25 0 0 0-3.539-5.63Z"/><path fill="#007ACC" d="m96.461 89.204-20.604 9.92a6.229 6.229 0 0 1-7.107-1.207l-67.451-61.5a4.167 4.167 0 0 1 .004-6.162l5.51-5.009a4.167 4.167 0 0 1 5.32-.236l81.228 61.62c2.725 2.067 6.639.124 6.639-3.297v.24a6.25 6.25 0 0 1-3.539 5.63Z"/><path fill="#1F9CF0" d="M75.858 99.126a6.232 6.232 0 0 1-7.108-1.21c2.306 2.307 6.25.674 6.25-2.588V4.672c0-3.262-3.944-4.895-6.25-2.589a6.232 6.232 0 0 1 7.108-1.21l20.6 9.908A6.25 6.25 0 0 1 100 16.413v67.174a6.25 6.25 0 0 1-3.541 5.633l-20.601 9.906Z"/></svg></span>
+                VS Code
+              </li>
+              <li class="stack__item">
+                <span class="stack__item-icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 16 16" fill="#fff"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2 .37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg></span>
+                GitHub
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== SOBRE MÍ ===== -->
+      <section id="sobremi" class="about" aria-labelledby="about-title">
+        <div class="about__header" data-animation="fadeInUp">
+          <p class="section-tag">// 05 — quién soy</p>
+          <h2 id="about-title" class="section-title">Sobre mí</h2>
+        </div>
+        <div class="about__body" data-animation="fadeIn">
+          <p>Soy <strong>Tobías Sanmartín</strong>, desarrollador full stack con más de 5 años de experiencia construyendo aplicaciones web completas, desde interfaces intuitivas hasta arquitecturas backend escalables. Me apasiona transformar ideas en productos digitales funcionales, eficientes y bien diseñados.</p>
+          <p>A lo largo de mi experiencia en empresas como <strong>WAVE IT</strong> y <strong>Cuyo Code</strong> aprendí a trabajar en distintas capas de un proyecto, entendiendo tanto la importancia de un buen código como la comunicación dentro del equipo. Me adapto fácilmente a distintos entornos y desafíos técnicos.</p>
+          <p>Fuera del mundo del desarrollo me encontrarás en el mar practicando <strong>surf</strong> 🌊. Es ahí donde encuentro equilibrio: la constancia, la paciencia y la adaptación son valores que aplico tanto en la vida como en el código.</p>
+        </div>
+      </section>
+
+      <!-- ===== CONTACTO ===== -->
+      <section id="contacto" class="contact" aria-labelledby="contact-title">
+        <div class="contact__card" data-animation="zoomIn">
+          <div class="contact__glow" aria-hidden="true"></div>
+          <div class="contact__inner">
+
+            <div class="contact__status" role="status">
+              <span class="contact__status-dot" aria-hidden="true"></span>
+              <span class="contact__status-text">Abierto a oportunidades freelance y full-time</span>
+            </div>
+
+            <h2 id="contact-title" class="contact__title">¿Tenés un proyecto<br>en mente?</h2>
+            <p class="contact__subtitle">Trabajemos juntos para convertir tu idea en un producto real. Respondo todos los mensajes.</p>
+
+            <div class="contact__body">
+
+              <!-- Form -->
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-field">
+                  <label for="cf-name">Nombre</label>
+                  <input id="cf-name" name="name" type="text" required placeholder="¿Cómo te llamás?" autocomplete="name">
+                </div>
+                <div class="form-field">
+                  <label for="cf-email">Email</label>
+                  <input id="cf-email" name="email" type="email" required placeholder="tu@email.com" autocomplete="email">
+                </div>
+                <div class="form-field">
+                  <label for="cf-msg">Mensaje</label>
+                  <textarea id="cf-msg" name="message" rows="4" required placeholder="Contame sobre tu proyecto..."></textarea>
+                </div>
+                <button type="submit" class="contact-form__submit">
+                  Enviar mensaje
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                </button>
+              </form>
+
+              <!-- FAQ -->
+              <div class="faq">
+                <p class="faq__tag">// preguntas frecuentes</p>
+
+                <details>
+                  <summary>
+                    <span class="faq-q">¿Qué tipo de proyectos desarrollás?</span>
+                    <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+                  </summary>
+                  <div class="faq__answer">Aplicaciones web, dashboards, sistemas de gestión, e-commerce y landing pages, construidos con React, Vue y TypeScript.</div>
+                </details>
+
+                <details>
+                  <summary>
+                    <span class="faq-q">¿Trabajás freelance o full-time?</span>
+                    <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+                  </summary>
+                  <div class="faq__answer">Ambos. Estoy abierto a colaboraciones puntuales por proyecto y también a sumarme a un equipo a largo plazo.</div>
+                </details>
+
+                <details>
+                  <summary>
+                    <span class="faq-q">¿Cómo es el proceso para empezar?</span>
+                    <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+                  </summary>
+                  <div class="faq__answer">Escribime por el formulario o mail, charlamos el alcance, te paso una propuesta con tiempos estimados y arrancamos.</div>
+                </details>
+
+                <details>
+                  <summary>
+                    <span class="faq-q">¿Trabajás con equipos?</span>
+                    <svg class="faq-chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+                  </summary>
+                  <div class="faq__answer">Sí. Tengo experiencia en metodologías ágiles (Scrum/Kanban), code reviews y pair programming dentro de equipos de desarrollo.</div>
+                </details>
+              </div>
+            </div>
+
+            <!-- Social links -->
+            <div class="contact__socials">
+              <a href="https://www.linkedin.com/in/tob%C3%ADas-sanmart%C3%ADn-001b74254/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn de Tobías Sanmartín">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"/></svg>
+              </a>
+              <a href="https://github.com/tobiassanmartindev" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub de Tobías Sanmartín">
+                <svg width="20" height="20" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2 .37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+              </a>
+              <a href="uploads/tobias-sanmartin-CV.pdf" target="_blank" rel="noopener" class="social-link" aria-label="Descargar Curriculum de Tobías Sanmartín">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <p class="footer__copy">© <span id="footer-year"></span> Tobías Sanmartín — Hecho con Vue, Tailwind y 🧉</p>
+        <nav class="footer__nav" aria-label="Navegación del footer">
+          <a href="#experiencia" class="footer__link">Experiencia</a>
+          <a href="#proyectos"   class="footer__link">Proyectos</a>
+          <a href="#stack"       class="footer__link">Stack</a>
+          <a href="#contacto"    class="footer__link">Contacto</a>
+        </nav>
+      </div>
+    </footer>
+
+  </div><!-- /.site-wrapper -->
+
+  <script type="module" src="js/main.js"></script>
+</body>
 </html>

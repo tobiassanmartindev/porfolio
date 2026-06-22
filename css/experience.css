@@ -1,0 +1,101 @@
+/* ===== Experience ===== */
+.experience {
+  position: relative;
+  z-index: 1;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 90px 24px;
+}
+
+.experience__header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.experience__timeline {
+  position: relative;
+}
+
+.experience__line {
+  position: absolute;
+  left: 19px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent), var(--accent2), transparent);
+}
+
+.experience__item {
+  position: relative;
+  padding-left: 62px;
+  margin-bottom: 46px;
+}
+
+.experience__item:last-child {
+  margin-bottom: 0;
+}
+
+.experience__dot {
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience__dot--active {
+  border-color: var(--accent);
+}
+
+.experience__dot-inner {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--muted);
+}
+
+.experience__dot--active .experience__dot-inner {
+  background: var(--accent);
+  box-shadow: 0 0 12px var(--accent);
+}
+
+.experience__date {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+.experience__item--active .experience__date {
+  color: var(--accent);
+}
+
+.experience__role {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.experience__company {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.experience__desc {
+  color: var(--muted);
+  line-height: 1.7;
+  margin: 8px 0 0;
+  font-size: 15.5px;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 60px 20px;
+  }
+}
