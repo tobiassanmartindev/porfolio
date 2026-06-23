@@ -108,11 +108,6 @@
       <header id="top" class="hero">
         <div class="hero__content" data-animation="fadeInUp">
 
-          <div class="hero__badge">
-            <span class="hero__badge-dot" aria-hidden="true"></span>
-            <span class="hero__badge-text">Disponible para nuevos proyectos</span>
-          </div>
-
           <p class="hero__prompt" aria-hidden="true">tobias@dev:~$ whoami</p>
 
           <h1 class="hero__title">
@@ -499,8 +494,8 @@
           <p>Fuera del mundo del desarrollo me encontrarás en el mar practicando <strong>surf</strong> 🌊. Es ahí donde encuentro equilibrio: la constancia, la paciencia y la adaptación son valores que aplico tanto en la vida como en el código.</p>
         </div>
 
-        <div class="about__education" data-animation="fadeInUp">
-          <article class="edu-card">
+        <div class="about__education">
+          <article class="edu-card" data-animation="fadeInLeft">
             <div class="edu-card__head">
               <span class="edu-card__icon" aria-hidden="true">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c0 1.657 2.686 3 6 3s6-1.343 6-3v-5"/></svg>
@@ -511,7 +506,7 @@
             <p class="edu-card__sub">Educación secundaria técnica N1, Raul Scalabrini Ortiz</p>
           </article>
 
-          <article class="edu-card">
+          <article class="edu-card" data-animation="fadeInRight" data-delay="80">
             <div class="edu-card__head">
               <span class="edu-card__icon" aria-hidden="true">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
@@ -617,7 +612,7 @@
     </main>
 
     <!-- ===== FOOTER ===== -->
-    <footer class="footer">
+    <footer class="footer" data-animation="fadeIn">
       <div class="footer__inner">
         <p class="footer__copy">© <span id="footer-year"></span> Tobías Sanmartín — Hecho con Vue, Tailwind y 🧉</p>
         <nav class="footer__nav" aria-label="Navegación del footer">
