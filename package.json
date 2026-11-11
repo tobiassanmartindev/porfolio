@@ -2,6 +2,9 @@
   "name": "porfolio-v4-strata",
   "version": "4.0.0",
   "private": true,
+  "engines": {
+    "node": "26.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
