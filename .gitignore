@@ -1,0 +1,11 @@
+node_modules
+.next
+next-env.d.ts
+*.tsbuildinfo
+
+# Variables de entorno (API keys del formulario)
+.env*.local
+.env
+
+# Material de origen (capturas originales y fichas), no lo usa el sitio
+trabajos/
